@@ -2,9 +2,69 @@
     "molecules": [
         {
             "atomType": "Molecule",
+            "name": "Top Plate Blank",
+            "x": 162,
+            "y": 85,
+            "uniqueID": 804518,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 152,
+                    "y": 135,
+                    "uniqueID": 272515,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 200
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 439,
+                    "y": 135,
+                    "uniqueID": 991577,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 163.5,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 272515,
+                    "ap2ID": 991577
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 991577
+                }
+            ],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
             "name": "Motors",
-            "x": 155,
-            "y": 165,
+            "x": 143,
+            "y": 154,
             "uniqueID": 532730,
             "ioValues": [],
             "topLevel": false,
@@ -31,7 +91,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 100
+                            "ioValue": 70
                         },
                         {
                             "name": "zDist",
@@ -212,29 +272,37 @@
             "topLevel": true,
             "allAtoms": [
                 {
-                    "atomType": "GitHubMolecule",
-                    "name": "Top Plate",
-                    "x": 149,
-                    "y": 86,
-                    "uniqueID": 906459,
-                    "projectID": "229338640",
+                    "atomType": "Molecule",
+                    "name": "Top Plate Blank",
+                    "x": 162,
+                    "y": 85,
+                    "uniqueID": 804518,
                     "ioValues": []
                 },
                 {
                     "atomType": "Molecule",
                     "name": "Motors",
-                    "x": 155,
-                    "y": 165,
+                    "x": 143,
+                    "y": 154,
                     "uniqueID": 532730,
                     "ioValues": []
                 },
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 537,
-                    "y": 162,
+                    "x": 484,
+                    "y": 139,
                     "uniqueID": 192783,
-                    "ioValues": [],
+                    "ioValues": [
+                        {
+                            "name": "3D shape 2",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 3",
+                            "ioValue": 10
+                        }
+                    ],
                     "removeCutawayGeometry": true
                 },
                 {
@@ -245,7 +313,28 @@
                     "ioValues": []
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 3",
+                    "ap2Primary": false,
+                    "ap1ID": 804518,
+                    "ap2ID": 192783
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 2",
+                    "ap2Primary": false,
+                    "ap1ID": 532730,
+                    "ap2ID": 192783
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 192783
+                }
+            ],
             "fileTypeVersion": 1
         }
     ],
