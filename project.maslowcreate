@@ -2,6 +2,35 @@
     "molecules": [
         {
             "atomType": "Molecule",
+            "name": "Motors",
+            "x": 217,
+            "y": 170,
+            "uniqueID": 532730,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "Motor Assembly Compact Maslow 4",
+                    "x": 126,
+                    "y": 107,
+                    "uniqueID": 330419,
+                    "projectID": "229323788",
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 163.5,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
             "name": "Top Plate Assembly",
             "x": 0,
             "y": 0,
@@ -12,10 +41,18 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Top Plate",
-                    "x": 241,
-                    "y": 93,
+                    "x": 230,
+                    "y": 79,
                     "uniqueID": 906459,
                     "projectID": "229338640",
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Motors",
+                    "x": 217,
+                    "y": 170,
+                    "uniqueID": 532730,
                     "ioValues": []
                 },
                 {
