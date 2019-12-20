@@ -61,6 +61,3 @@ undefined
 undefined
 
 
-## GT2 Belt Aproximation 
-
-

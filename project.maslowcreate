@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Motors",
-            "x": 217,
-            "y": 170,
+            "x": 155,
+            "y": 165,
             "uniqueID": 532730,
             "ioValues": [],
             "topLevel": false,
@@ -12,11 +12,121 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Motor Assembly Compact Maslow 4",
-                    "x": 126,
-                    "y": 107,
+                    "x": 103,
+                    "y": 158,
                     "uniqueID": 330419,
                     "projectID": "229323788",
                     "ioValues": []
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 293,
+                    "y": 141,
+                    "uniqueID": 654673,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 100
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 491,
+                    "y": 81,
+                    "uniqueID": 928763,
+                    "ioValues": [
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 90
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 507,
+                    "y": 165,
+                    "uniqueID": 830330,
+                    "ioValues": [
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 180
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 505,
+                    "y": 250,
+                    "uniqueID": 103235,
+                    "ioValues": [
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 270
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 780,
+                    "y": 147,
+                    "uniqueID": 314662,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 1",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 2",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 3",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 4",
+                            "ioValue": 10
+                        }
+                    ],
+                    "removeCutawayGeometry": true
                 },
                 {
                     "atomType": "Output",
@@ -26,7 +136,70 @@
                     "ioValues": []
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 330419,
+                    "ap2ID": 654673
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 654673,
+                    "ap2ID": 928763
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 654673,
+                    "ap2ID": 830330
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 654673,
+                    "ap2ID": 103235
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 1",
+                    "ap2Primary": false,
+                    "ap1ID": 654673,
+                    "ap2ID": 314662
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 2",
+                    "ap2Primary": false,
+                    "ap1ID": 928763,
+                    "ap2ID": 314662
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 3",
+                    "ap2Primary": false,
+                    "ap1ID": 830330,
+                    "ap2ID": 314662
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 4",
+                    "ap2Primary": false,
+                    "ap1ID": 103235,
+                    "ap2ID": 314662
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 314662
+                }
+            ],
             "fileTypeVersion": 1
         },
         {
@@ -41,8 +214,8 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Top Plate",
-                    "x": 230,
-                    "y": 79,
+                    "x": 149,
+                    "y": 86,
                     "uniqueID": 906459,
                     "projectID": "229338640",
                     "ioValues": []
@@ -50,10 +223,19 @@
                 {
                     "atomType": "Molecule",
                     "name": "Motors",
-                    "x": 217,
-                    "y": 170,
+                    "x": 155,
+                    "y": 165,
                     "uniqueID": 532730,
                     "ioValues": []
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 537,
+                    "y": 162,
+                    "uniqueID": 192783,
+                    "ioValues": [],
+                    "removeCutawayGeometry": true
                 },
                 {
                     "atomType": "Output",
