@@ -10,6 +10,15 @@
             "topLevel": true,
             "allAtoms": [
                 {
+                    "atomType": "GitHubMolecule",
+                    "name": "Top Plate",
+                    "x": 241,
+                    "y": 93,
+                    "uniqueID": 906459,
+                    "projectID": "229338640",
+                    "ioValues": []
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
