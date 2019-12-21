@@ -46,16 +46,16 @@ undefined
 undefined
 
 
-## Shaft Construction
+## Shaft
 
 
-## 8mm Shaft
+## 8mm to 8mm Shaft Coupler
 
 
 undefined
 
 
-## 8mm to 8mm Shaft Coupler
+## 8mm Shaft
 
 
 undefined
