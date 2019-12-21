@@ -31,7 +31,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 40
+                            "ioValue": 80
                         }
                     ]
                 },
@@ -48,7 +48,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0
+                            "ioValue": 100
                         },
                         {
                             "name": "zDist",
@@ -69,7 +69,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0
+                            "ioValue": -100
                         },
                         {
                             "name": "zDist",
@@ -86,7 +86,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": 100
                         },
                         {
                             "name": "yDist",
@@ -120,7 +120,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": -100
                         },
                         {
                             "name": "yDist",
@@ -161,6 +161,27 @@
                         }
                     ],
                     "removeCutawayGeometry": true
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 647,
+                    "y": 139,
+                    "uniqueID": 548832,
+                    "ioValues": [
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 42
+                        }
+                    ]
                 },
                 {
                     "atomType": "Difference",
@@ -264,9 +285,16 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 455471,
+                    "ap2ID": 548832
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "geometry2",
                     "ap2Primary": false,
-                    "ap1ID": 455471,
+                    "ap1ID": 548832,
                     "ap2ID": 630475
                 },
                 {
@@ -591,5 +619,5 @@
             "fileTypeVersion": 1
         }
     ],
-    "circleSegmentSize": "0.4"
+    "circleSegmentSize": "3.4"
 }
