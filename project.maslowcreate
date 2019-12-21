@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Top Plate Blank",
-            "x": 162,
-            "y": 85,
+            "x": 155,
+            "y": 96,
             "uniqueID": 804518,
             "ioValues": [],
             "topLevel": false,
@@ -12,8 +12,8 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 152,
-                    "y": 135,
+                    "x": 116,
+                    "y": 68,
                     "uniqueID": 272515,
                     "ioValues": [
                         {
@@ -23,10 +23,31 @@
                     ]
                 },
                 {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 97,
+                    "y": 192,
+                    "uniqueID": 822289,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 69.5
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Difference",
+                    "name": "Difference",
+                    "x": 710,
+                    "y": 61,
+                    "uniqueID": 630475,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 439,
-                    "y": 135,
+                    "x": 969,
+                    "y": 65,
                     "uniqueID": 991577,
                     "ioValues": [
                         {
@@ -46,9 +67,23 @@
             "allConnectors": [
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "geometry1",
+                    "ap2Primary": false,
+                    "ap1ID": 272515,
+                    "ap2ID": 630475
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry2",
+                    "ap2Primary": false,
+                    "ap1ID": 822289,
+                    "ap2ID": 630475
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
-                    "ap1ID": 272515,
+                    "ap1ID": 630475,
                     "ap2ID": 991577
                 },
                 {
@@ -63,8 +98,8 @@
         {
             "atomType": "Molecule",
             "name": "Motors",
-            "x": 143,
-            "y": 154,
+            "x": 158,
+            "y": 191,
             "uniqueID": 532730,
             "ioValues": [],
             "topLevel": false,
@@ -96,6 +131,27 @@
                         {
                             "name": "zDist",
                             "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 227,
+                    "y": 236,
+                    "uniqueID": 364138,
+                    "ioValues": [
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 0
                         }
                     ]
                 },
@@ -202,7 +258,7 @@
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 330419,
-                    "ap2ID": 654673
+                    "ap2ID": 364138
                 },
                 {
                     "ap1Name": "geometry",
@@ -231,6 +287,13 @@
                     "ap2Primary": false,
                     "ap1ID": 654673,
                     "ap2ID": 314662
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 364138,
+                    "ap2ID": 654673
                 },
                 {
                     "ap1Name": "geometry",
@@ -274,16 +337,16 @@
                 {
                     "atomType": "Molecule",
                     "name": "Top Plate Blank",
-                    "x": 162,
-                    "y": 85,
+                    "x": 155,
+                    "y": 96,
                     "uniqueID": 804518,
                     "ioValues": []
                 },
                 {
                     "atomType": "Molecule",
                     "name": "Motors",
-                    "x": 143,
-                    "y": 154,
+                    "x": 158,
+                    "y": 191,
                     "uniqueID": 532730,
                     "ioValues": []
                 },
