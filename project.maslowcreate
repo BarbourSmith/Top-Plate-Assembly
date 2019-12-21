@@ -535,8 +535,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 847,
-                    "y": 135,
+                    "x": 840,
+                    "y": 68,
                     "uniqueID": 928763,
                     "ioValues": [
                         {
@@ -615,7 +615,7 @@
                             "ioValue": 10
                         },
                         {
-                            "name": "3D shape 5",
+                            "name": "3D shape 6",
                             "ioValue": 10
                         }
                     ],
@@ -660,16 +660,9 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 5",
-                    "ap2Primary": false,
-                    "ap1ID": 440473,
-                    "ap2ID": 314662
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
-                    "ap1ID": 654673,
+                    "ap1ID": 440473,
                     "ap2ID": 928763
                 },
                 {
@@ -685,6 +678,13 @@
                     "ap2Primary": true,
                     "ap1ID": 654673,
                     "ap2ID": 103235
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 6",
+                    "ap2Primary": false,
+                    "ap1ID": 654673,
+                    "ap2ID": 314662
                 },
                 {
                     "ap1Name": "geometry",

@@ -2,10 +2,10 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|ET-WGM58AE|4|$44.00|http://www.etonm.com/|
-|8mm Shaft Coupler|3|$8.10|https://www.amazon.com/WEIJ-Coupling-Diameter-Aluminum-Connector/dp/B07MBGP5BP|
-|8mm Shaft|3|$30.69|https://www.mcmaster.com/1265k64|
-|M4 x 20mm Bolt|16|$1.90|https://www.mcmaster.com/91239a152|
-|Total: |26|$84.69| |
+|ET-WGM58AE|3|$33.00|http://www.etonm.com/|
+|8mm Shaft Coupler|2|$5.40|https://www.amazon.com/WEIJ-Coupling-Diameter-Aluminum-Connector/dp/B07MBGP5BP|
+|8mm Shaft|2|$20.46|https://www.mcmaster.com/1265k64|
+|M4 x 20mm Bolt|12|$1.43|https://www.mcmaster.com/91239a152|
+|Total: |19|$60.29| |
 
- 3xCOG MSRP: $254.08
+ 3xCOG MSRP: $180.86
