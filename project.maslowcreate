@@ -474,7 +474,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 10
+                            "ioValue": 9
                         }
                     ]
                 },
@@ -550,6 +550,10 @@
                         {
                             "name": "3D shape 3",
                             "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 4",
+                            "ioValue": 10
                         }
                     ],
                     "removeCutawayGeometry": true
@@ -575,6 +579,13 @@
                     "ap2Name": "3D shape 2",
                     "ap2Primary": false,
                     "ap1ID": 532730,
+                    "ap2ID": 192783
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 4",
+                    "ap2Primary": false,
+                    "ap1ID": 223815,
                     "ap2ID": 192783
                 },
                 {

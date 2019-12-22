@@ -3,9 +3,10 @@
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
 |ET-WGM58AE|4|$44.00|http://www.etonm.com/|
+|Leadscrew Nut|1|$5.00|https://www.amazon.com/Drillpro-400mm-Lead-Screw-Printer/dp/B017AR5QBS|
 |8mm Shaft Coupler|3|$8.10|https://www.amazon.com/WEIJ-Coupling-Diameter-Aluminum-Connector/dp/B07MBGP5BP|
 |8mm Shaft|3|$30.69|https://www.mcmaster.com/1265k64|
 |M4 x 20mm Bolt|16|$1.90|https://www.mcmaster.com/91239a152|
-|Total: |26|$84.69| |
+|Total: |27|$89.69| |
 
- 3xCOG MSRP: $254.08
+ 3xCOG MSRP: $269.08
