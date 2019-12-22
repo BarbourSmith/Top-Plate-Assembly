@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Top Plate Blank",
-            "x": 155,
-            "y": 96,
+            "x": 160,
+            "y": 70,
             "uniqueID": 804518,
             "ioValues": [],
             "topLevel": false,
@@ -22,7 +22,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 163.5,
+                    "y": 155.5,
                     "ioValues": []
                 }
             ],
@@ -127,7 +127,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 163.5,
+                    "y": 155.5,
                     "ioValues": []
                 }
             ],
@@ -172,8 +172,8 @@
         {
             "atomType": "Molecule",
             "name": "Motors",
-            "x": 158,
-            "y": 191,
+            "x": 164,
+            "y": 124,
             "uniqueID": 532730,
             "ioValues": [],
             "topLevel": false,
@@ -348,7 +348,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 163.5,
+                    "y": 155.5,
                     "ioValues": []
                 }
             ],
@@ -441,6 +441,70 @@
         },
         {
             "atomType": "Molecule",
+            "name": "Leadscrew Nut",
+            "x": 162,
+            "y": 184,
+            "uniqueID": 223815,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "8mm Lead Screw Nut",
+                    "x": 293,
+                    "y": 106,
+                    "uniqueID": 621305,
+                    "projectID": "229501348",
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 769,
+                    "y": 153,
+                    "uniqueID": 480108,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 115
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 155.5,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 621305,
+                    "ap2ID": 480108
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 480108
+                }
+            ],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
             "name": "Top Plate Assembly",
             "x": 0,
             "y": 0,
@@ -451,24 +515,32 @@
                 {
                     "atomType": "Molecule",
                     "name": "Top Plate Blank",
-                    "x": 155,
-                    "y": 96,
+                    "x": 160,
+                    "y": 70,
                     "uniqueID": 804518,
                     "ioValues": []
                 },
                 {
                     "atomType": "Molecule",
                     "name": "Motors",
-                    "x": 158,
-                    "y": 191,
+                    "x": 164,
+                    "y": 124,
                     "uniqueID": 532730,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Leadscrew Nut",
+                    "x": 162,
+                    "y": 184,
+                    "uniqueID": 223815,
                     "ioValues": []
                 },
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 484,
-                    "y": 139,
+                    "x": 557,
+                    "y": 86,
                     "uniqueID": 192783,
                     "ioValues": [
                         {
@@ -486,7 +558,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 163.5,
+                    "y": 155.5,
                     "ioValues": []
                 }
             ],
