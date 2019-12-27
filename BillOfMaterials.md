@@ -2,13 +2,6 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|ET-WGM58AE|4|$44.00|http://www.etonm.com/|
-|Leadscrew Nut|1|$5.00|https://www.amazon.com/Drillpro-400mm-Lead-Screw-Printer/dp/B017AR5QBS|
-|8mm Shaft Coupler|3|$8.10|https://www.amazon.com/WEIJ-Coupling-Diameter-Aluminum-Connector/dp/B07MBGP5BP|
-|8mm Shaft|3|$30.69|https://www.mcmaster.com/1265k64|
-|M6 Locknut|1|$0.05|https://www.mcmaster.com/90576a115|
-|M4 x 20mm Bolt|16|$1.90|https://www.mcmaster.com/91239a152|
-|Joint Connector|1|$2.25|https://www.woodcraft.com/products/joint-connector-small-2-1-2-to-3-1-4|
-|Total: |29|$91.99| |
+|Total: |0|$0.00| |
 
- 3xCOG MSRP: $275.98
+ 3xCOG MSRP: $0.00
