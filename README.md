@@ -7,39 +7,6 @@
 ## Top Plate Assembly
 
 
-## Top Plate Blank
-
-
-## Plate Template
-
-
-## Cut Aways
-
-
-## Latch
-
-
-## Joint Connector
-
-
-## Keep Out
-
-
-## Nut
-
-
-undefined
-
-
-## Plate
-
-
-## Bolt
-
-
-undefined
-
-
 ## Motors
 
 
@@ -65,41 +32,5 @@ Hole of 2.25mm is the recommended clearance bolt hole for a M4 bolt, not the mea
 
 
 The radius of this is not displayed on the diagram, and is estimated. It should be checked.
-
-
-undefined
-
-
-## M4x20 Bolt
-
-
-undefined
-
-
-## Shaft
-
-
-## 8mm to 8mm Shaft Coupler
-
-
-undefined
-
-
-## 8mm Shaft
-
-
-undefined
-
-
-## Leadscrew Nut
-
-
-## 8mm Lead Screw Nut
-
-
-## Cut Aways
-
-
-undefined
 
 

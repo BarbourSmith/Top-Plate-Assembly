@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Top Plate Blank",
-            "x": 160,
-            "y": 70,
+            "x": 164,
+            "y": 60,
             "uniqueID": 804518,
             "ioValues": [],
             "topLevel": false,
@@ -22,7 +22,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 153,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -127,7 +127,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 153,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -348,7 +348,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 153,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -482,7 +482,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 153,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -515,8 +515,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Top Plate Blank",
-                    "x": 160,
-                    "y": 70,
+                    "x": 164,
+                    "y": 60,
                     "uniqueID": 804518,
                     "ioValues": []
                 },
@@ -562,7 +562,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 153,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
