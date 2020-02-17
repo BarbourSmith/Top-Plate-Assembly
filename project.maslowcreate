@@ -442,8 +442,8 @@
         {
             "atomType": "Molecule",
             "name": "Leadscrew Nut",
-            "x": 162,
-            "y": 184,
+            "x": 166,
+            "y": 176,
             "uniqueID": 223815,
             "ioValues": [],
             "topLevel": false,
@@ -531,8 +531,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Leadscrew Nut",
-                    "x": 162,
-                    "y": 184,
+                    "x": 166,
+                    "y": 176,
                     "uniqueID": 223815,
                     "ioValues": []
                 },
@@ -570,6 +570,14 @@
                             "ioValue": "Plate"
                         }
                     ]
+                },
+                {
+                    "atomType": "Svg",
+                    "name": "Svg",
+                    "x": 880,
+                    "y": 228,
+                    "uniqueID": 488715,
+                    "ioValues": []
                 },
                 {
                     "atomType": "Output",
@@ -613,6 +621,13 @@
                     "ap2Primary": true,
                     "ap1ID": 192783,
                     "ap2ID": 158041
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 158041,
+                    "ap2ID": 488715
                 }
             ],
             "fileTypeVersion": 1
