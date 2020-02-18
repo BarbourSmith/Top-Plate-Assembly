@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Top Plate Blank",
-            "x": 164,
-            "y": 60,
+            "x": 147,
+            "y": 82,
             "uniqueID": 804518,
             "ioValues": [],
             "topLevel": false,
@@ -172,8 +172,8 @@
         {
             "atomType": "Molecule",
             "name": "Motors",
-            "x": 164,
-            "y": 124,
+            "x": 151,
+            "y": 168,
             "uniqueID": 532730,
             "ioValues": [],
             "topLevel": false,
@@ -442,8 +442,8 @@
         {
             "atomType": "Molecule",
             "name": "Leadscrew Nut",
-            "x": 166,
-            "y": 176,
+            "x": 153,
+            "y": 254,
             "uniqueID": 223815,
             "ioValues": [],
             "topLevel": false,
@@ -515,32 +515,32 @@
                 {
                     "atomType": "Molecule",
                     "name": "Top Plate Blank",
-                    "x": 164,
-                    "y": 60,
+                    "x": 147,
+                    "y": 82,
                     "uniqueID": 804518,
                     "ioValues": []
                 },
                 {
                     "atomType": "Molecule",
                     "name": "Motors",
-                    "x": 164,
-                    "y": 124,
+                    "x": 151,
+                    "y": 168,
                     "uniqueID": 532730,
                     "ioValues": []
                 },
                 {
                     "atomType": "Molecule",
                     "name": "Leadscrew Nut",
-                    "x": 166,
-                    "y": 176,
+                    "x": 153,
+                    "y": 254,
                     "uniqueID": 223815,
                     "ioValues": []
                 },
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 557,
-                    "y": 86,
+                    "x": 562,
+                    "y": 126,
                     "uniqueID": 192783,
                     "ioValues": [
                         {
