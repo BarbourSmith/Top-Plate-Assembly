@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Top Plate Blank",
-            "x": 147,
-            "y": 82,
+            "x": 146,
+            "y": 88,
             "uniqueID": 804518,
             "ioValues": [],
             "topLevel": false,
@@ -515,8 +515,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Top Plate Blank",
-                    "x": 147,
-                    "y": 82,
+                    "x": 146,
+                    "y": 88,
                     "uniqueID": 804518,
                     "ioValues": []
                 },
@@ -534,6 +534,15 @@
                     "x": 153,
                     "y": 254,
                     "uniqueID": 223815,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "Voxels",
+                    "x": 418,
+                    "y": 235,
+                    "uniqueID": 652513,
+                    "projectID": "242066537",
                     "ioValues": []
                 },
                 {
@@ -594,6 +603,13 @@
                     "ap2Primary": false,
                     "ap1ID": 804518,
                     "ap2ID": 192783
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "Geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 804518,
+                    "ap2ID": 652513
                 },
                 {
                     "ap1Name": "Geometry",
