@@ -3,12 +3,19 @@
         {
             "atomType": "Molecule",
             "name": "Top Plate Blank",
-            "x": 146,
-            "y": 88,
+            "x": 0.10834553440702782,
+            "y": 0.20306513409961685,
             "uniqueID": 804518,
             "ioValues": [],
             "topLevel": false,
             "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.9853587115666179,
+                    "y": 0.5,
+                    "ioValues": []
+                },
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Plate Template",
@@ -16,13 +23,6 @@
                     "y": 143,
                     "uniqueID": 315488,
                     "projectID": "229376941",
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 1316,
-                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -45,6 +45,13 @@
             "ioValues": [],
             "topLevel": false,
             "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.9853587115666179,
+                    "y": 0.5,
+                    "ioValues": []
+                },
                 {
                     "atomType": "GitHubMolecule",
                     "name": "8mm to 8mm Shaft Coupler",
@@ -122,13 +129,6 @@
                         }
                     ],
                     "removeCutawayGeometry": true
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 1316,
-                    "y": 163.5,
-                    "ioValues": []
                 }
             ],
             "allConnectors": [
@@ -172,12 +172,19 @@
         {
             "atomType": "Molecule",
             "name": "Motors",
-            "x": 151,
-            "y": 168,
+            "x": 0.10029282576866763,
+            "y": 0.4904214559386973,
             "uniqueID": 532730,
             "ioValues": [],
             "topLevel": false,
             "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.9853587115666179,
+                    "y": 0.5,
+                    "ioValues": []
+                },
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Motor Assembly Compact Maslow 4",
@@ -331,13 +338,6 @@
                         }
                     ],
                     "removeCutawayGeometry": true
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 1316,
-                    "y": 163.5,
-                    "ioValues": []
                 }
             ],
             "allConnectors": [
@@ -409,12 +409,19 @@
         {
             "atomType": "Molecule",
             "name": "Leadscrew Nut",
-            "x": 153,
-            "y": 254,
+            "x": 0.10322108345534406,
+            "y": 0.8505747126436781,
             "uniqueID": 223815,
             "ioValues": [],
             "topLevel": false,
             "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.9853587115666179,
+                    "y": 0.5,
+                    "ioValues": []
+                },
                 {
                     "atomType": "GitHubMolecule",
                     "name": "8mm Lead Screw Nut",
@@ -444,13 +451,6 @@
                             "ioValue": 9
                         }
                     ]
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 1316,
-                    "y": 163.5,
-                    "ioValues": []
                 }
             ],
             "allConnectors": [
@@ -482,50 +482,33 @@
                 {
                     "atomType": "Molecule",
                     "name": "Top Plate Blank",
-                    "x": 146,
-                    "y": 88,
+                    "x": 0.10834553440702782,
+                    "y": 0.20306513409961685,
                     "uniqueID": 804518,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Molecule",
-                    "name": "Motors",
-                    "x": 151,
-                    "y": 168,
-                    "uniqueID": 532730,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Molecule",
-                    "name": "Leadscrew Nut",
-                    "x": 153,
-                    "y": 254,
-                    "uniqueID": 223815,
                     "ioValues": []
                 },
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Voxels",
-                    "x": 468,
-                    "y": 56,
+                    "x": 0.3953147877013177,
+                    "y": 0.13793103448275862,
                     "uniqueID": 652513,
                     "projectID": "242066537",
                     "ioValues": []
                 },
                 {
-                    "atomType": "GitHubMolecule",
-                    "name": "Voxels",
-                    "x": 412,
-                    "y": 252,
-                    "uniqueID": 502126,
-                    "projectID": "242066537",
+                    "atomType": "Molecule",
+                    "name": "Motors",
+                    "x": 0.10029282576866763,
+                    "y": 0.4904214559386973,
+                    "uniqueID": 532730,
                     "ioValues": []
                 },
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 562,
-                    "y": 126,
+                    "x": 0.48023426061493407,
+                    "y": 0.48275862068965514,
                     "uniqueID": 192783,
                     "ioValues": [
                         {
@@ -546,8 +529,25 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Voxels",
-                    "x": 607,
-                    "y": 260,
+                    "x": 0.19619326500732065,
+                    "y": 0.6781609195402298,
+                    "uniqueID": 502126,
+                    "projectID": "242066537",
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Leadscrew Nut",
+                    "x": 0.10322108345534406,
+                    "y": 0.8505747126436781,
+                    "uniqueID": 223815,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "Voxels",
+                    "x": 0.5878477306002928,
+                    "y": 0.793103448275862,
                     "uniqueID": 193251,
                     "projectID": "242066537",
                     "ioValues": []
@@ -555,8 +555,8 @@
                 {
                     "atomType": "ExtractTag",
                     "name": "Extract Tag",
-                    "x": 702,
-                    "y": 236,
+                    "x": 0.6998535871156661,
+                    "y": 0.7126436781609194,
                     "uniqueID": 158041,
                     "ioValues": [
                         {
@@ -568,25 +568,25 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Voxels",
-                    "x": 820,
-                    "y": 274,
+                    "x": 0.8601756954612007,
+                    "y": 0.6628352490421456,
                     "uniqueID": 912487,
                     "projectID": "242066537",
                     "ioValues": []
                 },
                 {
-                    "atomType": "Svg",
-                    "name": "Svg",
-                    "x": 849,
-                    "y": 184,
-                    "uniqueID": 488715,
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.9853587115666179,
+                    "y": 0.5,
                     "ioValues": []
                 },
                 {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 1316,
-                    "y": 163.5,
+                    "atomType": "Svg",
+                    "name": "Svg",
+                    "x": 0.8543191800878478,
+                    "y": 0.8888888888888888,
+                    "uniqueID": 488715,
                     "ioValues": []
                 }
             ],
@@ -620,13 +620,6 @@
                     "ap2ID": 502126
                 },
                 {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 4",
-                    "ap2Primary": false,
-                    "ap1ID": 223815,
-                    "ap2ID": 192783
-                },
-                {
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap2Primary": false,
@@ -645,6 +638,13 @@
                     "ap2Primary": false,
                     "ap1ID": 192783,
                     "ap2ID": 193251
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 4",
+                    "ap2Primary": false,
+                    "ap1ID": 223815,
+                    "ap2ID": 192783
                 },
                 {
                     "ap1Name": "geometry",
