@@ -532,8 +532,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.26061493411420206,
-                    "y": 0.42911877394636017,
+                    "x": 0.2862371888726208,
+                    "y": 0.36015325670498083,
                     "uniqueID": 192783,
                     "ioValues": [
                         {
@@ -557,6 +557,14 @@
                     "x": 0.06588579795021962,
                     "y": 0.5057471264367817,
                     "uniqueID": 532730,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Svg",
+                    "name": "Svg",
+                    "x": 0.5541727672035139,
+                    "y": 0.18773946360153254,
+                    "uniqueID": 488715,
                     "ioValues": []
                 },
                 {
@@ -590,14 +598,6 @@
                     "ioValues": []
                 },
                 {
-                    "atomType": "Svg",
-                    "name": "Svg",
-                    "x": 0.6002928257686677,
-                    "y": 0.578544061302682,
-                    "uniqueID": 488715,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Scale",
                     "name": "Scale",
                     "x": 0.4055636896046852,
@@ -611,10 +611,24 @@
                     ]
                 },
                 {
+                    "atomType": "GitHubMolecule",
+                    "name": "Find Open Edges",
+                    "x": 0.6171303074670571,
+                    "y": 0.7164750957854406,
+                    "uniqueID": 447493,
+                    "projectID": "242930715",
+                    "ioValues": [
+                        {
+                            "name": "Geometry",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 0.9853587115666179,
-                    "y": 0.5,
+                    "x": 0.9751098096632503,
+                    "y": 0.2950191570881226,
                     "ioValues": []
                 }
             ],
@@ -673,6 +687,13 @@
                     "ap2Primary": false,
                     "ap1ID": 158041,
                     "ap2ID": 488715
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 158041,
+                    "ap2ID": 447493
                 },
                 {
                     "ap1Name": "geometry",
