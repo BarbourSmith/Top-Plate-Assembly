@@ -595,7 +595,12 @@
                     "y": 0.8314176245210728,
                     "uniqueID": 398566,
                     "projectID": "242066537",
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "Geometry",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "GitHubMolecule",
@@ -604,7 +609,12 @@
                     "y": 0.7126436781609194,
                     "uniqueID": 388426,
                     "projectID": "242066537",
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "Geometry",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Output",
