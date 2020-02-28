@@ -590,40 +590,21 @@
                 },
                 {
                     "atomType": "GitHubMolecule",
-                    "name": "Export as JSON",
-                    "x": 0.2137628111273792,
-                    "y": 0.8505747126436781,
-                    "uniqueID": 620557,
-                    "projectID": "230192765",
-                    "ioValues": []
-                },
-                {
-                    "atomType": "GitHubMolecule",
                     "name": "Voxels",
                     "x": 0.32503660322108346,
                     "y": 0.8314176245210728,
                     "uniqueID": 398566,
                     "projectID": "242066537",
-                    "ioValues": [
-                        {
-                            "name": "Geometry",
-                            "ioValue": 10
-                        }
-                    ]
+                    "ioValues": []
                 },
                 {
                     "atomType": "GitHubMolecule",
-                    "name": "Find Open Edges",
-                    "x": 0.6171303074670571,
-                    "y": 0.7164750957854406,
-                    "uniqueID": 447493,
-                    "projectID": "242930715",
-                    "ioValues": [
-                        {
-                            "name": "Geometry",
-                            "ioValue": 10
-                        }
-                    ]
+                    "name": "Voxels",
+                    "x": 0.6317715959004392,
+                    "y": 0.7126436781609194,
+                    "uniqueID": 388426,
+                    "projectID": "242066537",
+                    "ioValues": []
                 },
                 {
                     "atomType": "Output",
@@ -647,13 +628,6 @@
                     "ap2Primary": false,
                     "ap1ID": 804518,
                     "ap2ID": 789936
-                },
-                {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "Geometry",
-                    "ap2Primary": false,
-                    "ap1ID": 804518,
-                    "ap2ID": 620557
                 },
                 {
                     "ap1Name": "geometry",
@@ -694,7 +668,7 @@
                     "ap2Name": "Geometry",
                     "ap2Primary": false,
                     "ap1ID": 158041,
-                    "ap2ID": 447493
+                    "ap2ID": 388426
                 },
                 {
                     "ap1Name": "Geometry",
