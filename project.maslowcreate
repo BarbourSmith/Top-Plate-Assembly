@@ -608,7 +608,12 @@
                     "y": 0.7164750957854406,
                     "uniqueID": 447493,
                     "projectID": "242930715",
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "Geometry",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Output",
