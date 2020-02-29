@@ -10,19 +10,28 @@
             "topLevel": false,
             "allAtoms": [
                 {
+                    "atomType": "GitHubMolecule",
+                    "name": "Plate Template",
+                    "x": 0.2679355783308931,
+                    "y": 0.29885057471264365,
+                    "uniqueID": 315488,
+                    "projectID": "229376941",
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Code",
+                    "name": "Code",
+                    "x": 0.3682284040995608,
+                    "y": 0.7432950191570881,
+                    "uniqueID": 577939,
+                    "ioValues": [],
+                    "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1, Input2){\n  return Sphere(40)        //return must be geometry;\n}\n\nreturn main(Input1, Input2)"
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 0.9853587115666179,
                     "y": 0.5,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "GitHubMolecule",
-                    "name": "Plate Template",
-                    "x": 726,
-                    "y": 143,
-                    "uniqueID": 315488,
-                    "projectID": "229376941",
                     "ioValues": []
                 }
             ],
@@ -595,12 +604,7 @@
                     "y": 0.8314176245210728,
                     "uniqueID": 398566,
                     "projectID": "242066537",
-                    "ioValues": [
-                        {
-                            "name": "Geometry",
-                            "ioValue": 10
-                        }
-                    ]
+                    "ioValues": []
                 },
                 {
                     "atomType": "GitHubMolecule",
