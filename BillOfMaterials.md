@@ -4,7 +4,8 @@
  |----|----------|-----|-----|
 |ET-WGM58AE|5|$44.00|http://www.etonm.com/|
 |8mm Shaft Coupler|4|$8.10|https://www.amazon.com/WEIJ-Coupling-Diameter-Aluminum-Connector/dp/B07MBGP5BP|
+|8mm Shaft|4|$30.69|https://www.mcmaster.com/1265k64|
 |Tight Hold Latch|2|$3.81|https://www.mcmaster.com/1794A41|
-|Total: |11|$55.91| |
+|Total: |15|$86.60| |
 
- 3xCOG MSRP: $167.73
+ 3xCOG MSRP: $259.80
