@@ -2,6 +2,9 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|Total: |0|$0.00| |
+|ET-WGM58AE|5|$44.00|http://www.etonm.com/|
+|8mm Shaft|4|$30.69|https://www.mcmaster.com/1265k64|
+|Tight Hold Latch|2|$3.81|https://www.mcmaster.com/1794A41|
+|Total: |11|$78.50| |
 
- 3xCOG MSRP: $0.00
+ 3xCOG MSRP: $235.50
