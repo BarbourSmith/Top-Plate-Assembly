@@ -71,10 +71,6 @@
                     "uniqueID": 562221,
                     "ioValues": [
                         {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
-                        {
                             "name": "xDist",
                             "ioValue": 0
                         },
@@ -104,10 +100,6 @@
                     "y": 0.6666666666666666,
                     "uniqueID": 853891,
                     "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
                         {
                             "name": "xDist",
                             "ioValue": 0
@@ -212,10 +204,6 @@
                     "uniqueID": 440473,
                     "ioValues": [
                         {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
-                        {
                             "name": "xDist",
                             "ioValue": 0
                         },
@@ -263,10 +251,6 @@
                     "uniqueID": 928763,
                     "ioValues": [
                         {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
-                        {
                             "name": "x-axis degrees",
                             "ioValue": 0
                         },
@@ -288,10 +272,6 @@
                     "uniqueID": 654673,
                     "ioValues": [
                         {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
-                        {
                             "name": "xDist",
                             "ioValue": 0
                         },
@@ -308,20 +288,11 @@
                 {
                     "atomType": "Code",
                     "name": "Code",
-                    "x": 0.28330893118594436,
-                    "y": 0.8084291187739464,
+                    "x": 0.23792093704245976,
+                    "y": 0.8275862068965518,
                     "uniqueID": 449196,
                     "ioValues": [],
                     "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(input){\n  return motor();\n}\n\n\nfunction motor(){\n\tconst block = myTranslate(myExtrude(myRectangle(58.1,40.1), 27), 8.85, 0, 2);\n    const barrel = myColor(myTranslate(myRotate(myExtrude(myCircle(37.8), 75), 0, 90, 0), 37.9, 0, 18.5), \"silver\");\n    const shaft = myTranslate(myExtrude(myCircle(8), 17.5), 0, 0, -17.5);\n    const lowerBump  = myTranslate(myExtrude(myCircle(21), 4), 0, 0, -2);\n    const upperBump = myTranslate(myExtrude(myCircle(21), 2), 0, 0, 29);\n    const bumps = myAssemble([lowerBump, upperBump]);\n    const boltHole = myDifference(myCircle(8), myCircle(4));\n    const lowerBoltHoles = myExtrude(myAssemble([myTranslate(boltHole, -11.5, 14, 0), myTranslate(boltHole, -11.5, -14, 0), myTranslate(boltHole, 28.85, 14, 0), myTranslate(boltHole, 28.85, -14, 0)]), 2);\n    const upperBoltHoles = myTranslate(myExtrude(myAssemble([myTranslate(boltHole, -11.5, 14, 0), myTranslate(boltHole, -11.5, -14, 0), myTranslate(boltHole, 28.85, 14, 0), myTranslate(boltHole, 28.85, -14, 0)]), 2), 0, 0, 29);\n    const boltHoles = myAssemble([lowerBoltHoles, upperBoltHoles]);\n    const motor = myBOMTag(myAssemble([boltHoles, block, barrel, bumps, shaft]), \"{\\\"BOMitemName\\\":\\\"ET-WGM58AE\\\",\\\"numberNeeded\\\":1,\\\"costUSD\\\":11,\\\"source\\\":\\\"http://www.etonm.com/\\\",\\\"totalNeeded\\\":0}\");\n    return motor;\n}\n\nfunction cutAways(){\n    const shape1 = myTranslate(myCircle(60), 60/2,60/2,0);\n    const shape2 = myTranslate(myRectangle(10,10), 300, 5, 0);\n    const shape3 = myTranslate(myRectangle(10,10), 5, 300, 0);\n    \n    const oneWing = shrinkWrap([shape1, shape2, shape3]);\n    const wing1 = myRotate(myTranslate(oneWing, 40, 40, 0), 0, 0, 90);\n    const wing2 = myRotate(myTranslate(oneWing, 40, 40, 0), 0, 0, 180);\n    const wing3 = myRotate(myTranslate(oneWing, 40, 40, 0), 0, 0, 270);\n    const centerCircle = myCircle(69.5);\n    const slice = myRotate(myTranslate(myRectangle(500,4), 250, 0, 0), 0, 0, 45);\n    \n    return myAssemble([wing1, wing2, wing3, centerCircle, slice]);\n}\n\n\nfunction blank(){\n\treturn myTag(myExtrude(myDifference( myCircle(285), cutAways()),10), \"Plate\");\n}\n\nfunction template(){\n    return myAssemble([blank(), fullLatch()]);\n}\n\nfunction bolt(){\n    const shaft = myTranslate(myExtrude(myCircle(4), 20), 0, 0, -20);\n    const head  = myExtrude(myCircle(7.6), 2.2);\n\treturn myColor(myAssemble([shaft, head]), \"black\");\n}\n\nfunction bolts(){\n\tconst bolt1 = myTranslate(bolt(), -22, -3.968, 2);\n    const bolt2 = myTranslate(bolt(), -22, 3.968, 2);\n    const bolt3 = myTranslate(bolt(), 22, 7.14, 2);\n    const bolt4 = myTranslate(bolt(), 22, -7.14, 2);\n    return myAssemble([bolt1, bolt2, bolt4, bolt3]);\n}\n\nfunction latchBlock(){\n    const block = myColor(myExtrude(myRectangle(69.85, 30.16), 11.11), \"silver\");\n    const withBOM = myBOMTag(block, \"{\\\"BOMitemName\\\":\\\"Tight Hold Latch\\\",\\\"numberNeeded\\\":1,\\\"costUSD\\\":3.81,\\\"source\\\":\\\"https://www.mcmaster.com/1794A41\\\",\\\"totalNeeded\\\":1}\")\n    return withBOM;\n}\n\nfunction fullLatch(){\n    return myTranslate(myRotate(myAssemble([bolts(), latchBlock()]), 0,0,-45), 80, 80, 10);\n}\n\nfunction myCircle(diameter){\n\t\n    const circumference  = 3.14*diameter;\n    const numberOfSegments = Math.min(Math.max(parseInt( circumference / 4.6 ),5), 100)\n\t\n    return Circle.ofDiameter(diameter, {sides: numberOfSegments});\n}\n\nfunction myRectangle(x, y){\n\treturn Square(x, y);\n}\n\nfunction myTranslate(inputShape, x, y, z){\n\treturn inputShape.move(x,y,z);\n}\n\nfunction myExtrude(shape, distance){\n\treturn shape.extrude(distance);\n}\n\nfunction shrinkWrap(values){\n\treturn Hull(...values);\n}\n\nfunction myRotate(shape, x, y, z){\n\treturn shape.rotateX(x).rotateY(y).rotateZ(z);\n}\n\nfunction myAssemble(shapes){\n\treturn Assembly(...shapes)\n}\n\nfunction myDifference(shape1, shape2){\n    return shape1.cut(shape2).kept();\n}\n\nfunction myTag(shape, tag){\n    return shape.as(tag);\n}\n\nfunction myColor(shape, tag){\n    return shape.color(tag);\n}\n\nfunction myBOMTag(shape, tag){\n    return shape.Item(tag);\n}\n\nreturn main(input)"
-                },
-                {
-                    "atomType": "Code",
-                    "name": "Code",
-                    "x": 0.4077598828696925,
-                    "y": 0.7816091954022989,
-                    "uniqueID": 619121,
-                    "ioValues": [],
-                    "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1, Input2){\n  return Sphere(40)        //return must be geometry;\n}\n\nreturn main(Input1, Input2)"
                 },
                 {
                     "atomType": "Rotate",
@@ -330,10 +301,6 @@
                     "y": 0.5862068965517242,
                     "uniqueID": 830330,
                     "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
                         {
                             "name": "x-axis degrees",
                             "ioValue": 0
@@ -375,16 +342,21 @@
                     "removeCutawayGeometry": true
                 },
                 {
+                    "atomType": "Code",
+                    "name": "Code",
+                    "x": 0.3989751098096633,
+                    "y": 0.8314176245210728,
+                    "uniqueID": 619121,
+                    "ioValues": [],
+                    "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1, Input2){\n  if(JSON.stringify(Input1)!= JSON.stringify(Input2)){\n      console.log(\"not equal\");\n      throw \"Not equal\";\n  }\n  else{\n      console.log(\"Equal!\");\n  }\n  return Sphere(40)        //return must be geometry;\n}\n\nreturn main(Input1, Input2)"
+                },
+                {
                     "atomType": "Rotate",
                     "name": "Rotate",
                     "x": 0.6888726207906296,
                     "y": 0.8237547892720306,
                     "uniqueID": 103235,
                     "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
                         {
                             "name": "x-axis degrees",
                             "ioValue": 0
@@ -421,6 +393,13 @@
                     "ap2Primary": true,
                     "ap1ID": 330419,
                     "ap2ID": 440473
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "Input2",
+                    "ap2Primary": false,
+                    "ap1ID": 330419,
+                    "ap2ID": 619121
                 },
                 {
                     "ap1Name": "geometry",
@@ -470,6 +449,13 @@
                     "ap2Primary": false,
                     "ap1ID": 654673,
                     "ap2ID": 314662
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Input1",
+                    "ap2Primary": false,
+                    "ap1ID": 449196,
+                    "ap2ID": 619121
                 },
                 {
                     "ap1Name": "geometry",
@@ -526,10 +512,6 @@
                     "y": 153,
                     "uniqueID": 480108,
                     "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
                         {
                             "name": "xDist",
                             "ioValue": 115
@@ -650,12 +632,7 @@
                     "y": 0.8314176245210728,
                     "uniqueID": 398566,
                     "projectID": "242066537",
-                    "ioValues": [
-                        {
-                            "name": "Geometry",
-                            "ioValue": 10
-                        }
-                    ]
+                    "ioValues": []
                 },
                 {
                     "atomType": "GitHubMolecule",
