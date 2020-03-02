@@ -569,6 +569,19 @@
                     "ioValues": []
                 },
                 {
+                    "atomType": "ExtractTag",
+                    "name": "Extract Tag",
+                    "x": 0.4531478770131771,
+                    "y": 0.48275862068965514,
+                    "uniqueID": 158041,
+                    "ioValues": [
+                        {
+                            "name": "tag",
+                            "ioValue": "Plate"
+                        }
+                    ]
+                },
+                {
                     "atomType": "Svg",
                     "name": "Svg",
                     "x": 0.5966325036603221,
@@ -585,32 +598,12 @@
                     "ioValues": []
                 },
                 {
-                    "atomType": "ExtractTag",
-                    "name": "Extract Tag",
-                    "x": 0.45973645680819913,
-                    "y": 0.6628352490421456,
-                    "uniqueID": 158041,
-                    "ioValues": [
-                        {
-                            "name": "tag",
-                            "ioValue": "Plate"
-                        }
-                    ]
-                },
-                {
                     "atomType": "GitHubMolecule",
                     "name": "Voxels",
                     "x": 0.32503660322108346,
                     "y": 0.8314176245210728,
                     "uniqueID": 398566,
                     "projectID": "242066537",
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 0.9816983894582724,
-                    "y": 0.2720306513409962,
                     "ioValues": []
                 },
                 {
@@ -626,6 +619,13 @@
                             "ioValue": 10
                         }
                     ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.9853587115666179,
+                    "y": 0.5,
+                    "ioValues": []
                 }
             ],
             "allConnectors": [
@@ -671,13 +671,6 @@
                     "ap2ID": 398566
                 },
                 {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 4",
-                    "ap2Primary": false,
-                    "ap1ID": 223815,
-                    "ap2ID": 192783
-                },
-                {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": false,
@@ -690,6 +683,13 @@
                     "ap2Primary": false,
                     "ap1ID": 158041,
                     "ap2ID": 388426
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 4",
+                    "ap2Primary": false,
+                    "ap1ID": 223815,
+                    "ap2ID": 192783
                 }
             ],
             "fileTypeVersion": 1
