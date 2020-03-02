@@ -48,8 +48,8 @@
         {
             "atomType": "Molecule",
             "name": "Shaft",
-            "x": 0.11639824304538798,
-            "y": 0.5977011494252873,
+            "x": 0.11054172767203513,
+            "y": 0.6091954022988505,
             "uniqueID": 372596,
             "ioValues": [],
             "topLevel": false,
@@ -66,8 +66,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 0.28038067349926793,
-                    "y": 0.32567049808429116,
+                    "x": 0.2884333821376281,
+                    "y": 0.4482758620689655,
                     "uniqueID": 562221,
                     "ioValues": [
                         {
@@ -94,27 +94,6 @@
                     "ioValues": []
                 },
                 {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 0.3301610541727672,
-                    "y": 0.6666666666666666,
-                    "uniqueID": 853891,
-                    "ioValues": [
-                        {
-                            "name": "xDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": -100
-                        }
-                    ]
-                },
-                {
                     "atomType": "Assembly",
                     "name": "Assembly",
                     "x": 0.5754026354319179,
@@ -131,6 +110,27 @@
                         }
                     ],
                     "removeCutawayGeometry": true
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 0.3396778916544656,
+                    "y": 0.7547892720306513,
+                    "uniqueID": 853891,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": -100
+                        }
+                    ]
                 },
                 {
                     "atomType": "Output",
@@ -163,10 +163,10 @@
                     "ap2ID": 853891
                 },
                 {
-                    "ap1Name": "Geometry",
+                    "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap2Primary": false,
-                    "ap1ID": 475705
+                    "ap1ID": 273671
                 },
                 {
                     "ap1Name": "geometry",
@@ -218,14 +218,6 @@
                     ]
                 },
                 {
-                    "atomType": "Molecule",
-                    "name": "Shaft",
-                    "x": 0.11639824304538798,
-                    "y": 0.5977011494252873,
-                    "uniqueID": 372596,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Assembly",
                     "name": "Assembly",
                     "x": 0.3330893118594436,
@@ -242,6 +234,14 @@
                         }
                     ],
                     "removeCutawayGeometry": true
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Shaft",
+                    "x": 0.11054172767203513,
+                    "y": 0.6091954022988505,
+                    "uniqueID": 372596,
+                    "ioValues": []
                 },
                 {
                     "atomType": "Rotate",
@@ -284,6 +284,15 @@
                             "ioValue": 10
                         }
                     ]
+                },
+                {
+                    "atomType": "Code",
+                    "name": "Code",
+                    "x": 0.17862371888726208,
+                    "y": 0.8505747126436781,
+                    "uniqueID": 449196,
+                    "ioValues": [],
+                    "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(input){\n  return eightmmShaft();\n}\n\n\nfunction motor(){\n\tconst block = myTranslate(myExtrude(myRectangle(58.1,40.1), 27), 8.85, 0, 2);\n    const barrel = myColor(myTranslate(myRotate(myExtrude(myCircle(37.8), 75), 0, 90, 0), 37.9, 0, 18.5), \"silver\");\n    const shaft = myTranslate(myExtrude(myCircle(8), 17.5), 0, 0, -17.5);\n    const lowerBump  = myTranslate(myExtrude(myCircle(21), 4), 0, 0, -2);\n    const upperBump = myTranslate(myExtrude(myCircle(21), 2), 0, 0, 29);\n    const bumps = myAssemble([lowerBump, upperBump]);\n    const boltHole = myDifference(myCircle(8), myCircle(4));\n    const lowerBoltHoles = myExtrude(myAssemble([myTranslate(boltHole, -11.5, 14, 0), myTranslate(boltHole, -11.5, -14, 0), myTranslate(boltHole, 28.85, 14, 0), myTranslate(boltHole, 28.85, -14, 0)]), 2);\n    const upperBoltHoles = myTranslate(myExtrude(myAssemble([myTranslate(boltHole, -11.5, 14, 0), myTranslate(boltHole, -11.5, -14, 0), myTranslate(boltHole, 28.85, 14, 0), myTranslate(boltHole, 28.85, -14, 0)]), 2), 0, 0, 29);\n    const boltHoles = myAssemble([lowerBoltHoles, upperBoltHoles]);\n    const motor = myBOMTag(myAssemble([boltHoles, block, barrel, bumps, shaft]), \"{\\\"BOMitemName\\\":\\\"ET-WGM58AE\\\",\\\"numberNeeded\\\":1,\\\"costUSD\\\":11,\\\"source\\\":\\\"http://www.etonm.com/\\\",\\\"totalNeeded\\\":0}\");\n    \n    const bolt1 = myTranslate(myRotate(bolt(), 0, 180, 0), 28.5, 14, -10);\n    const bolt2 = myTranslate(bolt1, 0, -28, 0);\n    const bolt3 = myTranslate(bolt1, -40, 0, 0);\n    const bolt4 = myTranslate(bolt3, 0, -28, 0);\n    const bolts = myAssemble([bolt1, bolt3, bolt4, bolt2, motor]);\n    \n    return bolts;\n}\n\nfunction eightmmShaft(){\n    const shaft = myBOMTag(myColor(myExtrude(myCircle(8), 85), \"silver\"), \"{\\\"BOMitemName\\\":\\\"8mm Shaft\\\",\\\"numberNeeded\\\":1,\\\"costUSD\\\":10.23,\\\"source\\\":\\\"https://www.mcmaster.com/1265k64\\\",\\\"totalNeeded\\\":0}\");\n    \n    const couplerBlank = myExtrude(myDifference(myCircle(19), myCircle(8)), 25);\n    const cupler = myBOMTag(myColor(couplerBlank, \"powder blue\"), \"{\\\"BOMitemName\\\":\\\"8mm Shaft Coupler\\\",\\\"numberNeeded\\\":1,\\\"costUSD\\\":2.7,\\\"source\\\":\\\"https://www.amazon.com/WEIJ-Coupling-Diameter-Aluminum-Connector/dp/B07MBGP5BP\\\",\\\"totalNeeded\\\":0}\");\n    \n    const together = myAssemble([myTranslate(shaft, 0, 0, -100), myTranslate(cupler, 0, 0, -30)]);\n    return together;\n}\n\nfunction cutAways(){\n    const shape1 = myTranslate(myCircle(60), 60/2,60/2,0);\n    const shape2 = myTranslate(myRectangle(10,10), 300, 5, 0);\n    const shape3 = myTranslate(myRectangle(10,10), 5, 300, 0);\n    \n    const oneWing = shrinkWrap([shape1, shape2, shape3]);\n    const wing1 = myRotate(myTranslate(oneWing, 40, 40, 0), 0, 0, 90);\n    const wing2 = myRotate(myTranslate(oneWing, 40, 40, 0), 0, 0, 180);\n    const wing3 = myRotate(myTranslate(oneWing, 40, 40, 0), 0, 0, 270);\n    const centerCircle = myCircle(69.5);\n    const slice = myRotate(myTranslate(myRectangle(500,4), 250, 0, 0), 0, 0, 45);\n    \n    return myAssemble([wing1, wing2, wing3, centerCircle, slice]);\n}\n\n\nfunction blank(){\n\treturn myTag(myExtrude(myDifference( myCircle(285), cutAways()),10), \"Plate\");\n}\n\nfunction template(){\n    return myAssemble([blank(), fullLatch()]);\n}\n\nfunction bolt(){\n    const shaft = myTranslate(myExtrude(myCircle(4), 20), 0, 0, -20);\n    const head  = myExtrude(myCircle(7.6), 2.2);\n\treturn myColor(myAssemble([shaft, head]), \"black\");\n}\n\nfunction bolts(){\n\tconst bolt1 = myTranslate(bolt(), -22, -3.968, 2);\n    const bolt2 = myTranslate(bolt(), -22, 3.968, 2);\n    const bolt3 = myTranslate(bolt(), 22, 7.14, 2);\n    const bolt4 = myTranslate(bolt(), 22, -7.14, 2);\n    return myAssemble([bolt1, bolt2, bolt4, bolt3]);\n}\n\nfunction latchBlock(){\n    const block = myColor(myExtrude(myRectangle(69.85, 30.16), 11.11), \"silver\");\n    const withBOM = myBOMTag(block, \"{\\\"BOMitemName\\\":\\\"Tight Hold Latch\\\",\\\"numberNeeded\\\":1,\\\"costUSD\\\":3.81,\\\"source\\\":\\\"https://www.mcmaster.com/1794A41\\\",\\\"totalNeeded\\\":1}\")\n    return withBOM;\n}\n\nfunction fullLatch(){\n    return myTranslate(myRotate(myAssemble([bolts(), latchBlock()]), 0,0,-45), 80, 80, 10);\n}\n\nfunction myCircle(diameter){\n\t\n    const circumference  = 3.14*diameter;\n    const numberOfSegments = Math.min(Math.max(parseInt( circumference / 4.6 ),5), 100)\n\t\n    return Circle.ofDiameter(diameter, {sides: numberOfSegments});\n}\n\nfunction myRectangle(x, y){\n\treturn Square(x, y);\n}\n\nfunction myTranslate(inputShape, x, y, z){\n\treturn inputShape.move(x,y,z);\n}\n\nfunction myExtrude(shape, distance){\n\treturn shape.extrude(distance);\n}\n\nfunction shrinkWrap(values){\n\treturn Hull(...values);\n}\n\nfunction myRotate(shape, x, y, z){\n\treturn shape.rotateX(x).rotateY(y).rotateZ(z);\n}\n\nfunction myAssemble(shapes){\n\treturn Assembly(...shapes)\n}\n\nfunction myDifference(shape1, shape2){\n    return shape1.cut(shape2).kept();\n}\n\nfunction myTag(shape, tag){\n    return shape.as(tag);\n}\n\nfunction myColor(shape, tag){\n    return shape.color(tag);\n}\n\nfunction myBOMTag(shape, tag){\n    return shape.Item(tag);\n}\n\nreturn main(input)"
                 },
                 {
                     "atomType": "Rotate",
@@ -335,17 +344,8 @@
                 {
                     "atomType": "Code",
                     "name": "Code",
-                    "x": 0.20424597364568084,
-                    "y": 0.89272030651341,
-                    "uniqueID": 449196,
-                    "ioValues": [],
-                    "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(input){\n  return eightmmShaft();\n}\n\n\nfunction motor(){\n\tconst block = myTranslate(myExtrude(myRectangle(58.1,40.1), 27), 8.85, 0, 2);\n    const barrel = myColor(myTranslate(myRotate(myExtrude(myCircle(37.8), 75), 0, 90, 0), 37.9, 0, 18.5), \"silver\");\n    const shaft = myTranslate(myExtrude(myCircle(8), 17.5), 0, 0, -17.5);\n    const lowerBump  = myTranslate(myExtrude(myCircle(21), 4), 0, 0, -2);\n    const upperBump = myTranslate(myExtrude(myCircle(21), 2), 0, 0, 29);\n    const bumps = myAssemble([lowerBump, upperBump]);\n    const boltHole = myDifference(myCircle(8), myCircle(4));\n    const lowerBoltHoles = myExtrude(myAssemble([myTranslate(boltHole, -11.5, 14, 0), myTranslate(boltHole, -11.5, -14, 0), myTranslate(boltHole, 28.85, 14, 0), myTranslate(boltHole, 28.85, -14, 0)]), 2);\n    const upperBoltHoles = myTranslate(myExtrude(myAssemble([myTranslate(boltHole, -11.5, 14, 0), myTranslate(boltHole, -11.5, -14, 0), myTranslate(boltHole, 28.85, 14, 0), myTranslate(boltHole, 28.85, -14, 0)]), 2), 0, 0, 29);\n    const boltHoles = myAssemble([lowerBoltHoles, upperBoltHoles]);\n    const motor = myBOMTag(myAssemble([boltHoles, block, barrel, bumps, shaft]), \"{\\\"BOMitemName\\\":\\\"ET-WGM58AE\\\",\\\"numberNeeded\\\":1,\\\"costUSD\\\":11,\\\"source\\\":\\\"http://www.etonm.com/\\\",\\\"totalNeeded\\\":0}\");\n    \n    const bolt1 = myTranslate(myRotate(bolt(), 0, 180, 0), 28.5, 14, -10);\n    const bolt2 = myTranslate(bolt1, 0, -28, 0);\n    const bolt3 = myTranslate(bolt1, -40, 0, 0);\n    const bolt4 = myTranslate(bolt3, 0, -28, 0);\n    const bolts = myAssemble([bolt1, bolt3, bolt4, bolt2, motor]);\n    \n    return bolts;\n}\n\nfunction eightmmShaft(){\n    const shaft = myBOMTag(myColor(myExtrude(myCircle(8), 85), \"silver\"), \"{\\\"BOMitemName\\\":\\\"8mm Shaft\\\",\\\"numberNeeded\\\":1,\\\"costUSD\\\":10.23,\\\"source\\\":\\\"https://www.mcmaster.com/1265k64\\\",\\\"totalNeeded\\\":0}\");\n    return shaft;\n}\n\nfunction cutAways(){\n    const shape1 = myTranslate(myCircle(60), 60/2,60/2,0);\n    const shape2 = myTranslate(myRectangle(10,10), 300, 5, 0);\n    const shape3 = myTranslate(myRectangle(10,10), 5, 300, 0);\n    \n    const oneWing = shrinkWrap([shape1, shape2, shape3]);\n    const wing1 = myRotate(myTranslate(oneWing, 40, 40, 0), 0, 0, 90);\n    const wing2 = myRotate(myTranslate(oneWing, 40, 40, 0), 0, 0, 180);\n    const wing3 = myRotate(myTranslate(oneWing, 40, 40, 0), 0, 0, 270);\n    const centerCircle = myCircle(69.5);\n    const slice = myRotate(myTranslate(myRectangle(500,4), 250, 0, 0), 0, 0, 45);\n    \n    return myAssemble([wing1, wing2, wing3, centerCircle, slice]);\n}\n\n\nfunction blank(){\n\treturn myTag(myExtrude(myDifference( myCircle(285), cutAways()),10), \"Plate\");\n}\n\nfunction template(){\n    return myAssemble([blank(), fullLatch()]);\n}\n\nfunction bolt(){\n    const shaft = myTranslate(myExtrude(myCircle(4), 20), 0, 0, -20);\n    const head  = myExtrude(myCircle(7.6), 2.2);\n\treturn myColor(myAssemble([shaft, head]), \"black\");\n}\n\nfunction bolts(){\n\tconst bolt1 = myTranslate(bolt(), -22, -3.968, 2);\n    const bolt2 = myTranslate(bolt(), -22, 3.968, 2);\n    const bolt3 = myTranslate(bolt(), 22, 7.14, 2);\n    const bolt4 = myTranslate(bolt(), 22, -7.14, 2);\n    return myAssemble([bolt1, bolt2, bolt4, bolt3]);\n}\n\nfunction latchBlock(){\n    const block = myColor(myExtrude(myRectangle(69.85, 30.16), 11.11), \"silver\");\n    const withBOM = myBOMTag(block, \"{\\\"BOMitemName\\\":\\\"Tight Hold Latch\\\",\\\"numberNeeded\\\":1,\\\"costUSD\\\":3.81,\\\"source\\\":\\\"https://www.mcmaster.com/1794A41\\\",\\\"totalNeeded\\\":1}\")\n    return withBOM;\n}\n\nfunction fullLatch(){\n    return myTranslate(myRotate(myAssemble([bolts(), latchBlock()]), 0,0,-45), 80, 80, 10);\n}\n\nfunction myCircle(diameter){\n\t\n    const circumference  = 3.14*diameter;\n    const numberOfSegments = Math.min(Math.max(parseInt( circumference / 4.6 ),5), 100)\n\t\n    return Circle.ofDiameter(diameter, {sides: numberOfSegments});\n}\n\nfunction myRectangle(x, y){\n\treturn Square(x, y);\n}\n\nfunction myTranslate(inputShape, x, y, z){\n\treturn inputShape.move(x,y,z);\n}\n\nfunction myExtrude(shape, distance){\n\treturn shape.extrude(distance);\n}\n\nfunction shrinkWrap(values){\n\treturn Hull(...values);\n}\n\nfunction myRotate(shape, x, y, z){\n\treturn shape.rotateX(x).rotateY(y).rotateZ(z);\n}\n\nfunction myAssemble(shapes){\n\treturn Assembly(...shapes)\n}\n\nfunction myDifference(shape1, shape2){\n    return shape1.cut(shape2).kept();\n}\n\nfunction myTag(shape, tag){\n    return shape.as(tag);\n}\n\nfunction myColor(shape, tag){\n    return shape.color(tag);\n}\n\nfunction myBOMTag(shape, tag){\n    return shape.Item(tag);\n}\n\nreturn main(input)"
-                },
-                {
-                    "atomType": "Code",
-                    "name": "Code",
-                    "x": 0.3989751098096633,
-                    "y": 0.8314176245210728,
+                    "x": 0.4062957540263543,
+                    "y": 0.8045977011494253,
                     "uniqueID": 619121,
                     "ioValues": [],
                     "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1, Input2){\n  if(JSON.stringify(Input1)!= JSON.stringify(Input2)){\n      console.log(\"not equal\");\n      throw \"Not equal\";\n  }\n  else{\n      console.log(\"Equal!\");\n  }\n  return Sphere(40)        //return must be geometry;\n}\n\nreturn main(Input1, Input2)"
@@ -402,6 +402,13 @@
                     "ap2ID": 928763
                 },
                 {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 217527,
+                    "ap2ID": 654673
+                },
+                {
                     "ap1Name": "Geometry",
                     "ap2Name": "3D shape 2",
                     "ap2Primary": false,
@@ -414,13 +421,6 @@
                     "ap2Primary": false,
                     "ap1ID": 372596,
                     "ap2ID": 619121
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 217527,
-                    "ap2ID": 654673
                 },
                 {
                     "ap1Name": "geometry",
@@ -452,6 +452,13 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "Input1",
+                    "ap2Primary": false,
+                    "ap1ID": 449196,
+                    "ap2ID": 619121
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "3D shape 3",
                     "ap2Primary": false,
                     "ap1ID": 830330,
@@ -462,13 +469,6 @@
                     "ap2Name": "number or geometry",
                     "ap2Primary": false,
                     "ap1ID": 314662
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "Input1",
-                    "ap2Primary": false,
-                    "ap1ID": 449196,
-                    "ap2ID": 619121
                 },
                 {
                     "ap1Name": "geometry",
