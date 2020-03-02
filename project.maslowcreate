@@ -532,16 +532,12 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.30600292825768666,
-                    "y": 0.18007662835249041,
+                    "x": 0.32284040995607616,
+                    "y": 0.2720306513409962,
                     "uniqueID": 192783,
                     "ioValues": [
                         {
                             "name": "3D shape 3",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 4",
                             "ioValue": 10
                         },
                         {
@@ -609,16 +605,11 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Voxels",
-                    "x": 0.6061493411420205,
-                    "y": 0.8505747126436781,
+                    "x": 0.6090775988286969,
+                    "y": 0.846743295019157,
                     "uniqueID": 388426,
                     "projectID": "242066537",
-                    "ioValues": [
-                        {
-                            "name": "Geometry",
-                            "ioValue": 10
-                        }
-                    ]
+                    "ioValues": []
                 },
                 {
                     "atomType": "Output",
@@ -683,13 +674,6 @@
                     "ap2Primary": false,
                     "ap1ID": 158041,
                     "ap2ID": 388426
-                },
-                {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 4",
-                    "ap2Primary": false,
-                    "ap1ID": 223815,
-                    "ap2ID": 192783
                 }
             ],
             "fileTypeVersion": 1
