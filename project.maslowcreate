@@ -532,8 +532,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.2869692532942899,
-                    "y": 0.29118773946360155,
+                    "x": 0.30600292825768666,
+                    "y": 0.18007662835249041,
                     "uniqueID": 192783,
                     "ioValues": [
                         {
@@ -560,14 +560,6 @@
                     "ioValues": []
                 },
                 {
-                    "atomType": "Svg",
-                    "name": "Svg",
-                    "x": 0.5541727672035139,
-                    "y": 0.18773946360153254,
-                    "uniqueID": 488715,
-                    "ioValues": []
-                },
-                {
                     "atomType": "GitHubMolecule",
                     "name": "Voxels",
                     "x": 0.27232796486090777,
@@ -577,17 +569,12 @@
                     "ioValues": []
                 },
                 {
-                    "atomType": "ExtractTag",
-                    "name": "Extract Tag",
-                    "x": 0.4919472913616398,
-                    "y": 0.5478927203065134,
-                    "uniqueID": 158041,
-                    "ioValues": [
-                        {
-                            "name": "tag",
-                            "ioValue": "Plate"
-                        }
-                    ]
+                    "atomType": "Svg",
+                    "name": "Svg",
+                    "x": 0.5966325036603221,
+                    "y": 0.48275862068965514,
+                    "uniqueID": 488715,
+                    "ioValues": []
                 },
                 {
                     "atomType": "Molecule",
@@ -596,6 +583,19 @@
                     "y": 0.7662835249042146,
                     "uniqueID": 223815,
                     "ioValues": []
+                },
+                {
+                    "atomType": "ExtractTag",
+                    "name": "Extract Tag",
+                    "x": 0.45973645680819913,
+                    "y": 0.6628352490421456,
+                    "uniqueID": 158041,
+                    "ioValues": [
+                        {
+                            "name": "tag",
+                            "ioValue": "Plate"
+                        }
+                    ]
                 },
                 {
                     "atomType": "GitHubMolecule",
@@ -607,10 +607,17 @@
                     "ioValues": []
                 },
                 {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.9816983894582724,
+                    "y": 0.2720306513409962,
+                    "ioValues": []
+                },
+                {
                     "atomType": "GitHubMolecule",
                     "name": "Voxels",
-                    "x": 0.6317715959004392,
-                    "y": 0.7126436781609194,
+                    "x": 0.6061493411420205,
+                    "y": 0.8505747126436781,
                     "uniqueID": 388426,
                     "projectID": "242066537",
                     "ioValues": [
@@ -619,13 +626,6 @@
                             "ioValue": 10
                         }
                     ]
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 0.9853587115666179,
-                    "y": 0.5,
-                    "ioValues": []
                 }
             ],
             "allConnectors": [
@@ -671,6 +671,13 @@
                     "ap2ID": 398566
                 },
                 {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 4",
+                    "ap2Primary": false,
+                    "ap1ID": 223815,
+                    "ap2ID": 192783
+                },
+                {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": false,
@@ -683,13 +690,6 @@
                     "ap2Primary": false,
                     "ap1ID": 158041,
                     "ap2ID": 388426
-                },
-                {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 4",
-                    "ap2Primary": false,
-                    "ap1ID": 223815,
-                    "ap2ID": 192783
                 }
             ],
             "fileTypeVersion": 1
