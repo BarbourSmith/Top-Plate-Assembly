@@ -2,6 +2,7 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|Total: |0|$0.00| |
+|Tight Hold Latch|2|$3.81|https://www.mcmaster.com/1794A41|
+|Total: |2|$3.81| |
 
- 3xCOG MSRP: $0.00
+ 3xCOG MSRP: $11.43
