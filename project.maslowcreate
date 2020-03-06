@@ -607,6 +607,10 @@
                     "uniqueID": 184894,
                     "ioValues": [
                         {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
+                        {
                             "name": "xDist",
                             "ioValue": -105
                         },
