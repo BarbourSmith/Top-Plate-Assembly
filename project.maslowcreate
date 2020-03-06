@@ -442,8 +442,8 @@
         {
             "atomType": "Molecule",
             "name": "Leadscrew Nut",
-            "x": 0.08931185944363104,
-            "y": 0.7662835249042146,
+            "x": 0.09004392386530015,
+            "y": 0.7739463601532567,
             "uniqueID": 223815,
             "ioValues": [],
             "topLevel": false,
@@ -534,6 +534,10 @@
                         {
                             "name": "3D shape 6",
                             "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 7",
+                            "ioValue": 10
                         }
                     ],
                     "removeCutawayGeometry": true
@@ -549,8 +553,8 @@
                 {
                     "atomType": "ExtractTag",
                     "name": "Extract Tag",
-                    "x": 0.45241581259150804,
-                    "y": 0.5019157088122606,
+                    "x": 0.45680819912152265,
+                    "y": 0.6091954022988505,
                     "uniqueID": 158041,
                     "ioValues": [
                         {
@@ -562,8 +566,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Leadscrew Nut",
-                    "x": 0.08931185944363104,
-                    "y": 0.7662835249042146,
+                    "x": 0.09004392386530015,
+                    "y": 0.7739463601532567,
                     "uniqueID": 223815,
                     "ioValues": []
                 },
@@ -617,6 +621,13 @@
                     "ap2Primary": false,
                     "ap1ID": 158041,
                     "ap2ID": 488715
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 7",
+                    "ap2Primary": false,
+                    "ap1ID": 223815,
+                    "ap2ID": 192783
                 }
             ],
             "fileTypeVersion": 1
