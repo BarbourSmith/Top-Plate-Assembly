@@ -329,10 +329,6 @@
                     "uniqueID": 654673,
                     "ioValues": [
                         {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
-                        {
                             "name": "xDist",
                             "ioValue": 0
                         },
@@ -353,10 +349,6 @@
                     "y": 0.3639846743295019,
                     "uniqueID": 103235,
                     "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
                         {
                             "name": "x-axis degrees",
                             "ioValue": 0
@@ -386,10 +378,6 @@
                     "y": 0.578544061302682,
                     "uniqueID": 830330,
                     "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
                         {
                             "name": "x-axis degrees",
                             "ioValue": 0
@@ -438,10 +426,6 @@
                     "uniqueID": 440473,
                     "ioValues": [
                         {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
-                        {
                             "name": "xDist",
                             "ioValue": 0
                         },
@@ -462,10 +446,6 @@
                     "y": 0.7624521072796935,
                     "uniqueID": 928763,
                     "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
                         {
                             "name": "x-axis degrees",
                             "ioValue": 0
@@ -578,8 +558,8 @@
         {
             "atomType": "Molecule",
             "name": "Leadscrew Nut",
-            "x": 0.09004392386530015,
-            "y": 0.7739463601532567,
+            "x": 0.08857979502196194,
+            "y": 0.8122605363984674,
             "uniqueID": 223815,
             "ioValues": [],
             "topLevel": false,
@@ -594,10 +574,36 @@
                     "ioValues": []
                 },
                 {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.14494875549048317,
+                    "y": 0.6743295019157088,
+                    "uniqueID": 402088,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.363103953147877,
+                    "y": 0.6781609195402298,
+                    "uniqueID": 998826,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": -10
+                        }
+                    ]
+                },
+                {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 0.5644216691068814,
-                    "y": 0.3754789272030651,
+                    "x": 0.7825768667642752,
+                    "y": 0.28735632183908044,
                     "uniqueID": 480108,
                     "ioValues": [
                         {
@@ -619,6 +625,24 @@
                     ]
                 },
                 {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 0.6756954612005857,
+                    "y": 0.6628352490421456,
+                    "uniqueID": 880011,
+                    "ioValues": [],
+                    "removeCutawayGeometry": true
+                },
+                {
+                    "atomType": "Color",
+                    "name": "Color",
+                    "x": 0.5519765739385066,
+                    "y": 0.7739463601532567,
+                    "uniqueID": 945147,
+                    "ioValues": [],
+                    "selectedColorIndex": "12"
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 0.9853587115666179,
@@ -628,11 +652,18 @@
             ],
             "allConnectors": [
                 {
-                    "ap1Name": "Geometry",
+                    "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
-                    "ap1ID": 621305,
-                    "ap2ID": 480108
+                    "ap1ID": 402088,
+                    "ap2ID": 998826
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 998826,
+                    "ap2ID": 945147
                 },
                 {
                     "ap1Name": "geometry",
@@ -693,8 +724,8 @@
                 {
                     "atomType": "ExtractTag",
                     "name": "Extract Tag",
-                    "x": 0.45680819912152265,
-                    "y": 0.6091954022988505,
+                    "x": 0.45534407027818447,
+                    "y": 0.5862068965517242,
                     "uniqueID": 158041,
                     "ioValues": [
                         {
@@ -704,19 +735,19 @@
                     ]
                 },
                 {
-                    "atomType": "Molecule",
-                    "name": "Leadscrew Nut",
-                    "x": 0.09004392386530015,
-                    "y": 0.7739463601532567,
-                    "uniqueID": 223815,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Svg",
                     "name": "Svg",
                     "x": 0.6090775988286969,
                     "y": 0.5134099616858238,
                     "uniqueID": 488715,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Leadscrew Nut",
+                    "x": 0.08857979502196194,
+                    "y": 0.8122605363984674,
+                    "uniqueID": 223815,
                     "ioValues": []
                 },
                 {
