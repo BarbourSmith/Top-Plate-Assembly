@@ -329,6 +329,10 @@
                     "uniqueID": 654673,
                     "ioValues": [
                         {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
+                        {
                             "name": "xDist",
                             "ioValue": 0
                         },
@@ -349,6 +353,10 @@
                     "y": 0.3639846743295019,
                     "uniqueID": 103235,
                     "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
                         {
                             "name": "x-axis degrees",
                             "ioValue": 0
@@ -378,6 +386,10 @@
                     "y": 0.578544061302682,
                     "uniqueID": 830330,
                     "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
                         {
                             "name": "x-axis degrees",
                             "ioValue": 0
@@ -426,6 +438,10 @@
                     "uniqueID": 440473,
                     "ioValues": [
                         {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
+                        {
                             "name": "xDist",
                             "ioValue": 0
                         },
@@ -446,6 +462,10 @@
                     "y": 0.7624521072796935,
                     "uniqueID": 928763,
                     "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
                         {
                             "name": "x-axis degrees",
                             "ioValue": 0
@@ -565,17 +585,10 @@
             "topLevel": false,
             "allAtoms": [
                 {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 0.9853587115666179,
-                    "y": 0.5,
-                    "ioValues": []
-                },
-                {
                     "atomType": "GitHubMolecule",
                     "name": "8mm Lead Screw Nut",
-                    "x": 293,
-                    "y": 106,
+                    "x": 0.13689604685212298,
+                    "y": 0.40229885057471265,
                     "uniqueID": 621305,
                     "projectID": "229501348",
                     "ioValues": []
@@ -583,10 +596,14 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 769,
-                    "y": 153,
+                    "x": 0.5644216691068814,
+                    "y": 0.3754789272030651,
                     "uniqueID": 480108,
                     "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
                         {
                             "name": "xDist",
                             "ioValue": 115
@@ -600,6 +617,13 @@
                             "ioValue": 9
                         }
                     ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.9853587115666179,
+                    "y": 0.5,
+                    "ioValues": []
                 }
             ],
             "allConnectors": [
@@ -749,5 +773,5 @@
             "fileTypeVersion": 1
         }
     ],
-    "circleSegmentSize": "0.1"
+    "circleSegmentSize": "4.6"
 }
