@@ -311,11 +311,11 @@
                     "uniqueID": 217527,
                     "ioValues": [
                         {
-                            "name": "3D shape 2",
+                            "name": "3D shape 4",
                             "ioValue": 10
                         },
                         {
-                            "name": "3D shape 4",
+                            "name": "3D shape 5",
                             "ioValue": 10
                         }
                     ],
@@ -471,7 +471,7 @@
             "allConnectors": [
                 {
                     "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 2",
+                    "ap2Name": "3D shape 5",
                     "ap2Primary": false,
                     "ap1ID": 372596,
                     "ap2ID": 217527
