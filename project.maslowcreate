@@ -324,8 +324,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 0.5805270863836017,
-                    "y": 0.1724137931034483,
+                    "x": 0.5812591508052709,
+                    "y": 0.17624521072796936,
                     "uniqueID": 654673,
                     "ioValues": [
                         {
@@ -338,7 +338,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 10
+                            "ioValue": 6
                         }
                     ]
                 },
@@ -435,7 +435,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 10
+                            "ioValue": 6
                         }
                     ]
                 },
@@ -558,8 +558,8 @@
         {
             "atomType": "Molecule",
             "name": "Leadscrew Nut",
-            "x": 0.08857979502196194,
-            "y": 0.8122605363984674,
+            "x": 0.08638360175695461,
+            "y": 0.8544061302681992,
             "uniqueID": 223815,
             "ioValues": [],
             "topLevel": false,
@@ -608,7 +608,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": -105
                         },
                         {
                             "name": "yDist",
@@ -743,8 +743,8 @@
                 {
                     "atomType": "ExtractTag",
                     "name": "Extract Tag",
-                    "x": 0.45534407027818447,
-                    "y": 0.5862068965517242,
+                    "x": 0.4516837481698389,
+                    "y": 0.6053639846743295,
                     "uniqueID": 158041,
                     "ioValues": [
                         {
@@ -764,8 +764,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Leadscrew Nut",
-                    "x": 0.08857979502196194,
-                    "y": 0.8122605363984674,
+                    "x": 0.08638360175695461,
+                    "y": 0.8544061302681992,
                     "uniqueID": 223815,
                     "ioValues": []
                 },
