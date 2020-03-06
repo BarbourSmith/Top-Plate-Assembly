@@ -560,14 +560,6 @@
                     ]
                 },
                 {
-                    "atomType": "Svg",
-                    "name": "Svg",
-                    "x": 0.5966325036603221,
-                    "y": 0.48275862068965514,
-                    "uniqueID": 488715,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Molecule",
                     "name": "Leadscrew Nut",
                     "x": 0.08931185944363104,
@@ -576,19 +568,18 @@
                     "ioValues": []
                 },
                 {
-                    "atomType": "GitHubMolecule",
-                    "name": "Voxels",
-                    "x": 0.5988286969253294,
-                    "y": 0.7088122605363985,
-                    "uniqueID": 388426,
-                    "projectID": "242066537",
+                    "atomType": "Svg",
+                    "name": "Svg",
+                    "x": 0.6024890190336749,
+                    "y": 0.5172413793103449,
+                    "uniqueID": 488715,
                     "ioValues": []
                 },
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 0.9860907759882871,
-                    "y": 0.26053639846743293,
+                    "x": 0.9853587115666179,
+                    "y": 0.5,
                     "ioValues": []
                 }
             ],
@@ -626,13 +617,6 @@
                     "ap2Primary": false,
                     "ap1ID": 158041,
                     "ap2ID": 488715
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "Geometry",
-                    "ap2Primary": false,
-                    "ap1ID": 158041,
-                    "ap2ID": 388426
                 }
             ],
             "fileTypeVersion": 1
