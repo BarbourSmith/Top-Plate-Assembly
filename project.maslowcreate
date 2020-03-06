@@ -607,10 +607,6 @@
                     "uniqueID": 184894,
                     "ioValues": [
                         {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
-                        {
                             "name": "xDist",
                             "ioValue": -105
                         },
@@ -693,6 +689,13 @@
                     "ap2Primary": false,
                     "ap1ID": 945147,
                     "ap2ID": 880011
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 880011,
+                    "ap2ID": 184894
                 }
             ],
             "fileTypeVersion": 1
