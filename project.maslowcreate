@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Top Plate Blank",
-            "x": 0.08931185944363104,
-            "y": 0.19157088122605365,
+            "x": 0.09004392386530015,
+            "y": 0.1685823754789272,
             "uniqueID": 804518,
             "ioValues": [],
             "topLevel": false,
@@ -712,8 +712,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Top Plate Blank",
-                    "x": 0.08931185944363104,
-                    "y": 0.19157088122605365,
+                    "x": 0.09004392386530015,
+                    "y": 0.1685823754789272,
                     "uniqueID": 804518,
                     "ioValues": []
                 },
@@ -830,5 +830,5 @@
             "fileTypeVersion": 1
         }
     ],
-    "circleSegmentSize": "2.5"
+    "circleSegmentSize": "1"
 }
