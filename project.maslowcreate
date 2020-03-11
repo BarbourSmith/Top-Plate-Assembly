@@ -39,8 +39,8 @@
         {
             "atomType": "Molecule",
             "name": "Shaft",
-            "x": 0.15007320644216693,
-            "y": 0.27586206896551724,
+            "x": 0.19765739385065886,
+            "y": 0.23371647509578544,
             "uniqueID": 372596,
             "ioValues": [],
             "topLevel": false,
@@ -172,8 +172,8 @@
         {
             "atomType": "Molecule",
             "name": "Motor and Keepout",
-            "x": 0.16471449487554907,
-            "y": 0.8314176245210728,
+            "x": 0.10395314787701318,
+            "y": 0.8544061302681992,
             "uniqueID": 636648,
             "ioValues": [],
             "topLevel": false,
@@ -298,8 +298,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Shaft",
-                    "x": 0.15007320644216693,
-                    "y": 0.27586206896551724,
+                    "x": 0.19765739385065886,
+                    "y": 0.23371647509578544,
                     "uniqueID": 372596,
                     "ioValues": []
                 },
@@ -311,11 +311,11 @@
                     "uniqueID": 217527,
                     "ioValues": [
                         {
-                            "name": "3D shape 4",
+                            "name": "3D shape 6",
                             "ioValue": 10
                         },
                         {
-                            "name": "3D shape 5",
+                            "name": "3D shape 7",
                             "ioValue": 10
                         }
                     ],
@@ -345,6 +345,27 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
+                    "x": 0.2547584187408492,
+                    "y": 0.5823754789272031,
+                    "uniqueID": 328944,
+                    "ioValues": [
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": -21
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
                     "x": 0.6727672035139092,
                     "y": 0.3639846743295019,
                     "uniqueID": 103235,
@@ -366,8 +387,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Motor and Keepout",
-                    "x": 0.16471449487554907,
-                    "y": 0.8314176245210728,
+                    "x": 0.10395314787701318,
+                    "y": 0.8544061302681992,
                     "uniqueID": 636648,
                     "ioValues": []
                 },
@@ -471,7 +492,7 @@
             "allConnectors": [
                 {
                     "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 5",
+                    "ap2Name": "3D shape 7",
                     "ap2Primary": false,
                     "ap1ID": 372596,
                     "ap2ID": 217527
@@ -506,6 +527,20 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "3D shape 6",
+                    "ap2Primary": false,
+                    "ap1ID": 328944,
+                    "ap2ID": 217527
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 328944,
+                    "ap2ID": 440473
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "3D shape 4",
                     "ap2Primary": false,
                     "ap1ID": 103235,
@@ -516,14 +551,7 @@
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 636648,
-                    "ap2ID": 440473
-                },
-                {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 4",
-                    "ap2Primary": false,
-                    "ap1ID": 636648,
-                    "ap2ID": 217527
+                    "ap2ID": 328944
                 },
                 {
                     "ap1Name": "geometry",
