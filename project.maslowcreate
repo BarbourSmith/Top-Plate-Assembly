@@ -171,79 +171,6 @@
         },
         {
             "atomType": "Molecule",
-            "name": "Add keepout to let motor rotate",
-            "x": 0.35212298682284043,
-            "y": 0.7701149425287357,
-            "uniqueID": 795387,
-            "ioValues": [],
-            "topLevel": false,
-            "allAtoms": [
-                {
-                    "atomType": "Input",
-                    "name": "Motor",
-                    "x": 0.017569546120058566,
-                    "y": 0.4636015325670498,
-                    "uniqueID": 396772,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Circle",
-                    "name": "Circle",
-                    "x": 0.15153733528550511,
-                    "y": 0.6896551724137931,
-                    "uniqueID": 321961,
-                    "ioValues": [
-                        {
-                            "name": "diameter",
-                            "ioValue": 10
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Extrude",
-                    "name": "Extrude",
-                    "x": 0.33528550512445093,
-                    "y": 0.6436781609195402,
-                    "uniqueID": 316445,
-                    "ioValues": [
-                        {
-                            "name": "height",
-                            "ioValue": 10
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 0.9853587115666179,
-                    "y": 0.5,
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": 10
-                        }
-                    ]
-                }
-            ],
-            "allConnectors": [
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "number or geometry",
-                    "ap2Primary": false,
-                    "ap1ID": 396772
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 321961,
-                    "ap2ID": 316445
-                }
-            ],
-            "fileTypeVersion": 1
-        },
-        {
-            "atomType": "Molecule",
             "name": "Motor and Keepout",
             "x": 0.10395314787701318,
             "y": 0.8544061302681992,
@@ -355,6 +282,150 @@
                     "ap2Primary": false,
                     "ap1ID": 671993,
                     "ap2ID": 865019
+                }
+            ],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Add keepout to let motor rotate",
+            "x": 0.3623718887262079,
+            "y": 0.8045977011494253,
+            "uniqueID": 795387,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Input",
+                    "name": "Motor",
+                    "x": 0.010248901903367497,
+                    "y": 0.21839080459770116,
+                    "uniqueID": 396772,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 0.6515373352855052,
+                    "y": 0.2681992337164751,
+                    "uniqueID": 913481,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 1",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 2",
+                            "ioValue": 10
+                        }
+                    ],
+                    "removeCutawayGeometry": true
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.30527086383601754,
+                    "y": 0.6934865900383141,
+                    "uniqueID": 316445,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.10248901903367495,
+                    "y": 0.7509578544061302,
+                    "uniqueID": 321961,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 25
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 0.49487554904831627,
+                    "y": 0.6781609195402298,
+                    "uniqueID": 171578,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 1
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": -5
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": -6
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Color",
+                    "name": "Color",
+                    "x": 0.6405563689604685,
+                    "y": 0.6704980842911877,
+                    "uniqueID": 154885,
+                    "ioValues": [],
+                    "selectedColorIndex": "12"
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.9853587115666179,
+                    "y": 0.5,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "3D shape 2",
+                    "ap2Primary": false,
+                    "ap1ID": 396772,
+                    "ap2ID": 913481
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 913481
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 316445,
+                    "ap2ID": 171578
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 321961,
+                    "ap2ID": 316445
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 171578,
+                    "ap2ID": 154885
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 1",
+                    "ap2Primary": false,
+                    "ap1ID": 154885,
+                    "ap2ID": 913481
                 }
             ],
             "fileTypeVersion": 1
@@ -480,14 +551,6 @@
                 },
                 {
                     "atomType": "Molecule",
-                    "name": "Add keepout to let motor rotate",
-                    "x": 0.35212298682284043,
-                    "y": 0.7701149425287357,
-                    "uniqueID": 795387,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Molecule",
                     "name": "Motor and Keepout",
                     "x": 0.10395314787701318,
                     "y": 0.8544061302681992,
@@ -514,6 +577,14 @@
                             "ioValue": 180
                         }
                     ]
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Add keepout to let motor rotate",
+                    "x": 0.3623718887262079,
+                    "y": 0.8045977011494253,
+                    "uniqueID": 795387,
+                    "ioValues": []
                 },
                 {
                     "atomType": "Assembly",
@@ -615,13 +686,6 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 328944,
-                    "ap2ID": 440473
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "Motor",
                     "ap2Primary": false,
                     "ap1ID": 328944,
@@ -654,6 +718,13 @@
                     "ap2Primary": false,
                     "ap1ID": 830330,
                     "ap2ID": 314662
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 795387,
+                    "ap2ID": 440473
                 },
                 {
                     "ap1Name": "geometry",
