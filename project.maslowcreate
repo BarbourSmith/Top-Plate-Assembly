@@ -433,8 +433,8 @@
         {
             "atomType": "Molecule",
             "name": "Motors",
-            "x": 0.08931185944363104,
-            "y": 0.47126436781609193,
+            "x": 0.08711566617862372,
+            "y": 0.4482758620689655,
             "uniqueID": 532730,
             "ioValues": [],
             "topLevel": false,
@@ -929,8 +929,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Motors",
-                    "x": 0.08931185944363104,
-                    "y": 0.47126436781609193,
+                    "x": 0.08711566617862372,
+                    "y": 0.4482758620689655,
                     "uniqueID": 532730,
                     "ioValues": []
                 },
@@ -962,6 +962,20 @@
                     "y": 0.8544061302681992,
                     "uniqueID": 223815,
                     "ioValues": []
+                },
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "Measure Bounds",
+                    "x": 0.6032210834553441,
+                    "y": 0.7854406130268199,
+                    "uniqueID": 692713,
+                    "projectID": "247363759",
+                    "ioValues": [
+                        {
+                            "name": "Shape",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Output",
@@ -1005,6 +1019,13 @@
                     "ap2Primary": false,
                     "ap1ID": 158041,
                     "ap2ID": 488715
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Shape",
+                    "ap2Primary": false,
+                    "ap1ID": 158041,
+                    "ap2ID": 692713
                 },
                 {
                     "ap1Name": "Geometry",
