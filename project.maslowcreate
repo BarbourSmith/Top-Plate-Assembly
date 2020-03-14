@@ -950,8 +950,8 @@
                 {
                     "atomType": "Svg",
                     "name": "Svg",
-                    "x": 0.6090775988286969,
-                    "y": 0.5134099616858238,
+                    "x": 0.6068814055636896,
+                    "y": 0.5287356321839081,
                     "uniqueID": 488715,
                     "ioValues": []
                 },
@@ -970,12 +970,7 @@
                     "y": 0.7854406130268199,
                     "uniqueID": 692713,
                     "projectID": "247363759",
-                    "ioValues": [
-                        {
-                            "name": "Shape",
-                            "ioValue": 10
-                        }
-                    ]
+                    "ioValues": []
                 },
                 {
                     "atomType": "Output",
@@ -1038,5 +1033,5 @@
             "fileTypeVersion": 1
         }
     ],
-    "circleSegmentSize": "1"
+    "circleSegmentSize": "2.5"
 }
