@@ -515,6 +515,10 @@
                     "uniqueID": 103235,
                     "ioValues": [
                         {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
+                        {
                             "name": "x-axis degrees",
                             "ioValue": 0
                         },
@@ -564,6 +568,10 @@
                     "y": 0.578544061302682,
                     "uniqueID": 830330,
                     "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
                         {
                             "name": "x-axis degrees",
                             "ioValue": 0
@@ -619,6 +627,10 @@
                     "y": 0.7624521072796935,
                     "uniqueID": 928763,
                     "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
                         {
                             "name": "x-axis degrees",
                             "ioValue": 0
@@ -970,7 +982,12 @@
                     "y": 0.7854406130268199,
                     "uniqueID": 692713,
                     "projectID": "247363759",
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "Shape",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Output",
@@ -1033,5 +1050,5 @@
             "fileTypeVersion": 1
         }
     ],
-    "circleSegmentSize": "2.5"
+    "circleSegmentSize": "0.4"
 }
