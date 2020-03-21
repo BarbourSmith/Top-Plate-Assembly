@@ -1119,91 +1119,6 @@
         },
         {
             "atomType": "Molecule",
-            "name": "Bolts",
-            "x": 0.17130307467057102,
-            "y": 0.5517241379310345,
-            "uniqueID": 952854,
-            "ioValues": [],
-            "topLevel": false,
-            "allAtoms": [
-                {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 0.3235724743777452,
-                    "y": 0.1992337164750958,
-                    "uniqueID": 459226,
-                    "ioValues": [
-                        {
-                            "name": "xDist",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 2
-                        }
-                    ]
-                },
-                {
-                    "atomType": "GitHubMolecule",
-                    "name": "M4x20 Bolt",
-                    "x": 0.20424597364568084,
-                    "y": 0.421455938697318,
-                    "uniqueID": 786535,
-                    "projectID": "198850770",
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Assembly",
-                    "name": "Assembly",
-                    "x": 0.5285505124450952,
-                    "y": 0.4482758620689655,
-                    "uniqueID": 452085,
-                    "ioValues": [
-                        {
-                            "name": "3D shape 1",
-                            "ioValue": 10
-                        }
-                    ],
-                    "removeCutawayGeometry": true
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 0.9853587115666179,
-                    "y": 0.5,
-                    "ioValues": []
-                }
-            ],
-            "allConnectors": [
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 1",
-                    "ap2Primary": false,
-                    "ap1ID": 459226,
-                    "ap2ID": 452085
-                },
-                {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 786535,
-                    "ap2ID": 459226
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap2Primary": false,
-                    "ap1ID": 452085
-                }
-            ],
-            "fileTypeVersion": 1
-        },
-        {
-            "atomType": "Molecule",
             "name": "Leadscrew Nut",
             "x": 0.07686676427525622,
             "y": 0.842911877394636,
@@ -1214,52 +1129,17 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "8mm Lead Screw Nut",
-                    "x": 0.1698389458272328,
-                    "y": 0.2720306513409962,
+                    "x": 0.13689604685212298,
+                    "y": 0.40229885057471265,
                     "uniqueID": 621305,
                     "projectID": "229501348",
                     "ioValues": []
                 },
                 {
-                    "atomType": "Assembly",
-                    "name": "Assembly",
-                    "x": 0.36530014641288433,
-                    "y": 0.42528735632183906,
-                    "uniqueID": 104726,
-                    "ioValues": [],
-                    "removeCutawayGeometry": true
-                },
-                {
-                    "atomType": "Molecule",
-                    "name": "Bolts",
-                    "x": 0.17130307467057102,
-                    "y": 0.5517241379310345,
-                    "uniqueID": 952854,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Assembly",
-                    "name": "Assembly",
-                    "x": 0.6427525622254758,
-                    "y": 0.3639846743295019,
-                    "uniqueID": 880011,
-                    "ioValues": [
-                        {
-                            "name": "3D shape 1",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 2",
-                            "ioValue": 10
-                        }
-                    ],
-                    "removeCutawayGeometry": true
-                },
-                {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 0.16032210834553443,
-                    "y": 0.8314176245210728,
+                    "x": 0.14494875549048317,
+                    "y": 0.6743295019157088,
                     "uniqueID": 402088,
                     "ioValues": [
                         {
@@ -1271,8 +1151,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 0.36969253294289894,
-                    "y": 0.846743295019157,
+                    "x": 0.363103953147877,
+                    "y": 0.6781609195402298,
                     "uniqueID": 998826,
                     "ioValues": [
                         {
@@ -1305,11 +1185,29 @@
                 {
                     "atomType": "Color",
                     "name": "Color",
-                    "x": 0.5636896046852123,
-                    "y": 0.846743295019157,
+                    "x": 0.5519765739385066,
+                    "y": 0.7739463601532567,
                     "uniqueID": 945147,
                     "ioValues": [],
                     "selectedColorIndex": "12"
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 0.6749633967789165,
+                    "y": 0.6704980842911877,
+                    "uniqueID": 880011,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 1",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 2",
+                            "ioValue": 10
+                        }
+                    ],
+                    "removeCutawayGeometry": true
                 },
                 {
                     "atomType": "Output",
@@ -1326,14 +1224,6 @@
                     "ap2Primary": false,
                     "ap1ID": 621305,
                     "ap2ID": 880011
-                },
-                null,
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 880011,
-                    "ap2ID": 184894
                 },
                 {
                     "ap1Name": "geometry",
@@ -1361,6 +1251,13 @@
                     "ap2Primary": false,
                     "ap1ID": 945147,
                     "ap2ID": 880011
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 880011,
+                    "ap2ID": 184894
                 }
             ],
             "fileTypeVersion": 1
