@@ -248,7 +248,7 @@
                         },
                         {
                             "name": "z-axis degrees",
-                            "ioValue": 45
+                            "ioValue": 58
                         }
                     ]
                 },
@@ -301,8 +301,8 @@
         {
             "atomType": "Molecule",
             "name": "Top Plate Blank",
-            "x": 0.07686676427525622,
-            "y": 0.26053639846743293,
+            "x": 0.07174231332357248,
+            "y": 0.26436781609195403,
             "uniqueID": 804518,
             "ioValues": [],
             "topLevel": false,
@@ -667,12 +667,7 @@
             "x": 0.3623718887262079,
             "y": 0.8045977011494253,
             "uniqueID": 795387,
-            "ioValues": [
-                {
-                    "name": "Motor",
-                    "ioValue": 10
-                }
-            ],
+            "ioValues": [],
             "topLevel": false,
             "allAtoms": [
                 {
@@ -853,10 +848,6 @@
                     "uniqueID": 654673,
                     "ioValues": [
                         {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
-                        {
                             "name": "xDist",
                             "ioValue": 0
                         },
@@ -877,10 +868,6 @@
                     "y": 0.5747126436781609,
                     "uniqueID": 328944,
                     "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
                         {
                             "name": "x-axis degrees",
                             "ioValue": 0
@@ -903,10 +890,6 @@
                     "uniqueID": 103235,
                     "ioValues": [
                         {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
-                        {
                             "name": "x-axis degrees",
                             "ioValue": 0
                         },
@@ -927,10 +910,6 @@
                     "y": 0.6551724137931034,
                     "uniqueID": 440473,
                     "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
                         {
                             "name": "xDist",
                             "ioValue": 0
@@ -961,10 +940,6 @@
                     "uniqueID": 830330,
                     "ioValues": [
                         {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
-                        {
                             "name": "x-axis degrees",
                             "ioValue": 0
                         },
@@ -984,12 +959,7 @@
                     "x": 0.3623718887262079,
                     "y": 0.8045977011494253,
                     "uniqueID": 795387,
-                    "ioValues": [
-                        {
-                            "name": "Motor",
-                            "ioValue": 10
-                        }
-                    ]
+                    "ioValues": []
                 },
                 {
                     "atomType": "Assembly",
@@ -1024,10 +994,6 @@
                     "y": 0.7624521072796935,
                     "uniqueID": 928763,
                     "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
                         {
                             "name": "x-axis degrees",
                             "ioValue": 0
@@ -1203,10 +1169,6 @@
                     "uniqueID": 184894,
                     "ioValues": [
                         {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
-                        {
                             "name": "xDist",
                             "ioValue": -105
                         },
@@ -1312,8 +1274,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Top Plate Blank",
-                    "x": 0.07686676427525622,
-                    "y": 0.26053639846743293,
+                    "x": 0.07174231332357248,
+                    "y": 0.26436781609195403,
                     "uniqueID": 804518,
                     "ioValues": []
                 },
@@ -1383,12 +1345,7 @@
                     "y": 0.7854406130268199,
                     "uniqueID": 692713,
                     "projectID": "247363759",
-                    "ioValues": [
-                        {
-                            "name": "Shape",
-                            "ioValue": 10
-                        }
-                    ]
+                    "ioValues": []
                 },
                 {
                     "atomType": "Output",
