@@ -667,7 +667,12 @@
             "x": 0.3623718887262079,
             "y": 0.8045977011494253,
             "uniqueID": 795387,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "Motor",
+                    "ioValue": 10
+                }
+            ],
             "topLevel": false,
             "allAtoms": [
                 {
@@ -848,6 +853,10 @@
                     "uniqueID": 654673,
                     "ioValues": [
                         {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
+                        {
                             "name": "xDist",
                             "ioValue": 0
                         },
@@ -868,6 +877,10 @@
                     "y": 0.5747126436781609,
                     "uniqueID": 328944,
                     "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
                         {
                             "name": "x-axis degrees",
                             "ioValue": 0
@@ -890,6 +903,10 @@
                     "uniqueID": 103235,
                     "ioValues": [
                         {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
+                        {
                             "name": "x-axis degrees",
                             "ioValue": 0
                         },
@@ -910,6 +927,10 @@
                     "y": 0.6551724137931034,
                     "uniqueID": 440473,
                     "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
                         {
                             "name": "xDist",
                             "ioValue": 0
@@ -940,6 +961,10 @@
                     "uniqueID": 830330,
                     "ioValues": [
                         {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
+                        {
                             "name": "x-axis degrees",
                             "ioValue": 0
                         },
@@ -959,7 +984,12 @@
                     "x": 0.3623718887262079,
                     "y": 0.8045977011494253,
                     "uniqueID": 795387,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "Motor",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Assembly",
@@ -994,6 +1024,10 @@
                     "y": 0.7624521072796935,
                     "uniqueID": 928763,
                     "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
                         {
                             "name": "x-axis degrees",
                             "ioValue": 0
@@ -1168,6 +1202,10 @@
                     "y": 0.39463601532567044,
                     "uniqueID": 184894,
                     "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
                         {
                             "name": "xDist",
                             "ioValue": -105
@@ -1413,5 +1451,5 @@
             "fileTypeVersion": 1
         }
     ],
-    "circleSegmentSize": "0.7"
+    "circleSegmentSize": "4.6"
 }
