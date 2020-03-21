@@ -2,9 +2,86 @@
     "molecules": [
         {
             "atomType": "Molecule",
+            "name": "Shape",
+            "x": 0.14494875549048317,
+            "y": 0.39080459770114945,
+            "uniqueID": 306313,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 0.21449487554904834,
+                    "y": 0.42528735632183906,
+                    "uniqueID": 232074,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 150
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 150
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.9853587115666179,
+                    "y": 0.5,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 232074
+                }
+            ],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Cutaways",
+            "x": 0.14494875549048317,
+            "y": 0.7471264367816093,
+            "uniqueID": 656309,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.2642752562225476,
+                    "y": 0.48659003831417624,
+                    "uniqueID": 423883,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.9853587115666179,
+                    "y": 0.5,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
             "name": "Top Plate Blank",
-            "x": 0.09004392386530015,
-            "y": 0.1685823754789272,
+            "x": 0.09224011713030746,
+            "y": 0.16475095785440613,
             "uniqueID": 804518,
             "ioValues": [],
             "topLevel": false,
@@ -12,10 +89,26 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Plate Template",
-                    "x": 0.25988286969253294,
-                    "y": 0.2720306513409962,
+                    "x": 0.26939970717423134,
+                    "y": 0.24137931034482757,
                     "uniqueID": 315488,
                     "projectID": "229376941",
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Shape",
+                    "x": 0.14494875549048317,
+                    "y": 0.39080459770114945,
+                    "uniqueID": 306313,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Cutaways",
+                    "x": 0.14494875549048317,
+                    "y": 0.7471264367816093,
+                    "uniqueID": 656309,
                     "ioValues": []
                 },
                 {
@@ -433,8 +526,8 @@
         {
             "atomType": "Molecule",
             "name": "Motors",
-            "x": 0.08711566617862372,
-            "y": 0.4482758620689655,
+            "x": 0.08857979502196194,
+            "y": 0.4406130268199233,
             "uniqueID": 532730,
             "ioValues": [],
             "topLevel": false,
@@ -515,10 +608,6 @@
                     "uniqueID": 103235,
                     "ioValues": [
                         {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
-                        {
                             "name": "x-axis degrees",
                             "ioValue": 0
                         },
@@ -568,10 +657,6 @@
                     "y": 0.578544061302682,
                     "uniqueID": 830330,
                     "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
                         {
                             "name": "x-axis degrees",
                             "ioValue": 0
@@ -627,10 +712,6 @@
                     "y": 0.7624521072796935,
                     "uniqueID": 928763,
                     "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
                         {
                             "name": "x-axis degrees",
                             "ioValue": 0
@@ -911,8 +992,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Top Plate Blank",
-                    "x": 0.09004392386530015,
-                    "y": 0.1685823754789272,
+                    "x": 0.09224011713030746,
+                    "y": 0.16475095785440613,
                     "uniqueID": 804518,
                     "ioValues": []
                 },
@@ -941,8 +1022,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Motors",
-                    "x": 0.08711566617862372,
-                    "y": 0.4482758620689655,
+                    "x": 0.08857979502196194,
+                    "y": 0.4406130268199233,
                     "uniqueID": 532730,
                     "ioValues": []
                 },
@@ -982,12 +1063,7 @@
                     "y": 0.7854406130268199,
                     "uniqueID": 692713,
                     "projectID": "247363759",
-                    "ioValues": [
-                        {
-                            "name": "Shape",
-                            "ioValue": 10
-                        }
-                    ]
+                    "ioValues": []
                 },
                 {
                     "atomType": "Output",

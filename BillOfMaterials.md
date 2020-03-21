@@ -2,6 +2,10 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|Total: |0|$0.00| |
+|ET-WGM58AE|5|$44.00|http://www.etonm.com/|
+|Leadscrew Nut|2|$5.00|https://www.amazon.com/Drillpro-400mm-Lead-Screw-Printer/dp/B017AR5QBS|
+|8mm Shaft Coupler|4|$8.10|https://www.amazon.com/WEIJ-Coupling-Diameter-Aluminum-Connector/dp/B07MBGP5BP|
+|8mm Shaft|4|$30.69|https://www.mcmaster.com/1265k64|
+|Total: |15|$87.79| |
 
- 3xCOG MSRP: $0.00
+ 3xCOG MSRP: $263.37
